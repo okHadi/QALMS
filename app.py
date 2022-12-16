@@ -15,7 +15,7 @@ def login():
     return render_template("login.html", error=error)          #we can pass the values to be shown in the login.html as parameters of render_template
 
 
-app.route('/')
+@app.route('/')
 def home():
     return render_template("home.html")
 

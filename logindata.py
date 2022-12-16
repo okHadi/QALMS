@@ -22,7 +22,9 @@ def logging(username, password):
     error_message = "Incorrect username or password."
     currentURL = driver.current_url
     if currentURL == "https://qalam.nust.edu.pk/student/dashboard":
+        print("Login successful")
         return "Login Successful"
     else:
+        print("Login failed")
         return "Login failed"
     driver.close()
