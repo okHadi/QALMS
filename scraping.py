@@ -40,8 +40,8 @@ def login_and_scrape(username, password):
     # Close the browser
     driver.close()
 
-username='mkaleem.bscs22seecs'
-password='4IE8bhkp1234!@#$'
+username='USERNAMEHERE'
+password='PASSWORDHERE'
 login_and_scrape(username, password)
 
 
@@ -146,4 +146,8 @@ login_and_scrape(username, password)
 # #CSS selectors:
 # #element=soup.select('#login') # is the CSS selector. This stores the element under the 'login' id in variable element.
 # # elem=soup.select('.login') returns the class of this name as a list.
+ 
+#CSS selectors:
+#element=soup.select('#login') # is the CSS selector. This stores the element under the 'login' id in variable element.
+# elem=soup.select('.login') returns the class of this name as a list.
  
