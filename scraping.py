@@ -27,8 +27,8 @@ def logging(username, password):
         print("Login failed")
         return "Login failed"
     driver.close()
-username='mkaleem.bscs22seecs'
-password='4IE8bhkp1234!@#$'
+username='USERNAMEHERE'
+password='PASSWORDHERE'
 logging(username,password)
     
     
