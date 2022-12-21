@@ -41,7 +41,7 @@ def login_and_scrape(username, password):
     driver.close()
 
 username='USERNAMEHERE'
-password='PASSWORDHERE'
+password='PASSHERE'
 login_and_scrape(username, password)
 
 
