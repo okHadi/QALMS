@@ -25,17 +25,18 @@ def login_and_scrape(username, password):
 
     # Wait for the dashboard page to load
     driver.implicitly_wait(10)
+    auth_keys = {c["name"]: c["value"] for c in driver.get_cookies()}
+    response = requests.get("https://qalam.nust.edu.pk/student/dashboard", cookies=auth_keys)
 
     # Check the current URL to see if the login was successful
     current_url = driver.current_url
     if current_url != "https://qalam.nust.edu.pk/student/dashboard":
         raise Exception("Login failed")
     
-
+    
     # Scrape the dashboard page
     html = driver.page_source
     soup = BeautifulSoup(html, 'html.parser')
-    driver.close()
     # Do something with the scraped data
     # title=soup.title.string
     # print(title)
@@ -49,36 +50,84 @@ def login_and_scrape(username, password):
             linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
             all_links.append(linkT)
     for link in all_links:
-        driver = webdriver.Chrome("chromedriver")
-        driver.get("https://qalam.nust.edu.pk/")
-        username_field = driver.find_element(By.ID, 'login')
-        username_field.send_keys(username)
+        # driver = webdriver.Chrome("chromedriver")
+        # driver.get("https://qalam.nust.edu.pk/")
+        # username_field = driver.find_element(By.ID, 'login')
+        # username_field.send_keys(username)
 
-        password_field = driver.find_element(By.ID, 'password')
-        password_field.send_keys(password)
+        # password_field = driver.find_element(By.ID, 'password')
+        # password_field.send_keys(password)
 
-        # Click the login button
-        driver.find_element(By.CLASS_NAME,"btn-nust").click()
+        # # Click the login button
+        # driver.find_element(By.CLASS_NAME,"btn-nust").click()
 
-        # Wait for the dashboard page to load
-        driver.implicitly_wait(10)
+        # # Wait for the dashboard page to load
+        # driver.implicitly_wait(10)
 
         # Send an HTTP request to the URL of the current link
-        response = session.get(link)
-        print(response.text)
+        response2 = session.get(link,cookies=auth_keys)
+        print(response2.text)
+        # print(response.text)
         # Parse the response using Beautiful Soup
         soup = BeautifulSoup(response.text, 'html.parser')
-        driver.close()
 
         # print(soup.get_text())
         
     # Close the session
     session.close()
     # Close the browser
-
-username='mkaleem.bscs22seecs'
-password='4IE8bhkp1234!@#$'
+    driver.close()
+username='USERNAME'
+password='PASSWORD'
 login_and_scrape(username, password)
+
+
+
+# import requests
+# from bs4 import BeautifulSoup
+# import re
+# # Set the login URL
+# login_url = "https://qalam.nust.edu.pk/student/login"
+
+# # Set the payload for the login form
+# payload = {
+#     "login": "USERNAME",
+#     "password": "PASSWORD"
+# }
+
+# # Send an HTTP POST request to the login URL with the payload
+# response = requests.post(login_url, data=payload)
+# #print(response.text)
+# # Extract the authentication keys from the response
+# auth_keys = response.cookies
+
+# # Use the authentication keys to authenticate future requests
+# response = requests.get("https://qalam.nust.edu.pk/student/dashboard", cookies=auth_keys)
+
+# # Print the response
+# # print(response.text)
+
+# # Extract the links from the response
+# soup = BeautifulSoup(response.text, 'html.parser')
+# anchors = soup.find_all('a', href=re.compile(r'results/id/'))
+# all_links = []
+# for link in anchors:
+#     if link.get('href') != '#':
+#         linkT = "https://qalam.nust.edu.pk" + str(link.get('href'))
+#         print(linkT)
+#         all_links.append(linkT)
+# print(all_links)
+# # Iterate through the links and make requests to them
+# for link in all_links:
+#     # Send an HTTP request to the URL of the current link using the session object
+#     response2 = requests.get(link, cookies=auth_keys)
+#     print(response.text)
+
+
+
+
+
+
 
 
 # def login_and_scrape(username, password):
