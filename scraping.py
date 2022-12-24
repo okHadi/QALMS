@@ -3,8 +3,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 import requests
 from bs4 import BeautifulSoup
+import re
 
 def login_and_scrape(username, password):
+    session=requests.Session()
     # Create a new Chrome browser
     driver = webdriver.Chrome("chromedriver")
 
@@ -28,21 +30,118 @@ def login_and_scrape(username, password):
     current_url = driver.current_url
     if current_url != "https://qalam.nust.edu.pk/student/dashboard":
         raise Exception("Login failed")
+    
 
     # Scrape the dashboard page
     html = driver.page_source
     soup = BeautifulSoup(html, 'html.parser')
-
-    # Do something with the scraped data
-    title=soup.title.string
-    print(title)
-
-    # Close the browser
     driver.close()
+    # Do something with the scraped data
+    # title=soup.title.string
+    # print(title)
 
-username='USERNAMEHERE'
-password='PASSHERE'
+    
+    anchors=soup.find_all('a',href=re.compile(r'results/id/'))
+    all_links=[]
+    for link in anchors:
+        if(link.get('href') != '#'):
+            
+            linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
+            all_links.append(linkT)
+    for link in all_links:
+        driver = webdriver.Chrome("chromedriver")
+        driver.get("https://qalam.nust.edu.pk/")
+        username_field = driver.find_element(By.ID, 'login')
+        username_field.send_keys(username)
+
+        password_field = driver.find_element(By.ID, 'password')
+        password_field.send_keys(password)
+
+        # Click the login button
+        driver.find_element(By.CLASS_NAME,"btn-nust").click()
+
+        # Wait for the dashboard page to load
+        driver.implicitly_wait(10)
+
+        # Send an HTTP request to the URL of the current link
+        response = session.get(link)
+        print(response.text)
+        # Parse the response using Beautiful Soup
+        soup = BeautifulSoup(response.text, 'html.parser')
+        driver.close()
+
+        # print(soup.get_text())
+        
+    # Close the session
+    session.close()
+    # Close the browser
+
+username='mkaleem.bscs22seecs'
+password='4IE8bhkp1234!@#$'
 login_and_scrape(username, password)
+
+
+# def login_and_scrape(username, password):
+#     session=requests.Session()
+#     # Create a new Chrome browser
+#     driver = webdriver.Chrome("chromedriver")
+
+#     # Navigate to the login page
+#     driver.get("https://qalam.nust.edu.pk/")
+
+#     # Find the username and password input fields and enter your credentials
+#     username_field = driver.find_element(By.ID, 'login')
+#     username_field.send_keys(username)
+
+#     password_field = driver.find_element(By.ID, 'password')
+#     password_field.send_keys(password)
+
+#     # Click the login button
+#     driver.find_element(By.CLASS_NAME,"btn-nust").click()
+
+#     # Wait for the dashboard page to load
+#     driver.implicitly_wait(10)
+
+#     # Check the current URL to see if the login was successful
+#     current_url = driver.current_url
+#     if current_url != "https://qalam.nust.edu.pk/student/dashboard":
+#         raise Exception("Login failed")
+
+#     # Scrape the dashboard page
+#     html = driver.page_source
+#     soup = BeautifulSoup(html, 'html.parser')
+
+#     # Do something with the scraped data
+#     # title=soup.title.string
+#     # print(title)
+
+    
+#     anchors=soup.find_all('a',href=re.compile(r'results/id/'))
+#     all_links=set()
+#     for link in anchors:
+#         if(link.get('href') != '#'):
+#             linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
+#             all_links.add(linkT)
+#     for link in all_links:
+#         # Send an HTTP request to the URL of the current link
+#         response = sessions.get(link)
+
+#         # Parse the response using Beautiful Soup
+#         soup = BeautifulSoup(response.text, 'html.parser')
+#         print(soup.get_text())
+        
+#     session.close()
+#     # Close the browser
+#     driver.close()
+
+# #Get all the anchor tags from the page
+# anchors=soup.find_all('a')
+# #Get all the links from the page:
+# #all_links=set()
+# #for link in anchors:
+#     #if(link.get('href') != '#'):
+#         #linkT="https://qalam.nust.edu.pk"+link.get('href')
+#         #all_links.add(linkT)
 
 
 
@@ -75,8 +174,8 @@ login_and_scrape(username, password)
 #         print("Login failed")
 #         return "Login failed"
 #     driver.close()
-# username='mkaleem.bscs22seecs'
-# password='4IE8bhkp1234!@#$'
+# username='USERNAME'
+# password='PASSWORD'
 # logging(username,password)
     
     
