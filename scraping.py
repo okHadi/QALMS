@@ -66,10 +66,23 @@ def login_and_scrape(username, password):
 
         # Send an HTTP request to the URL of the current link
         response2 = session.get(link,cookies=auth_keys)
-        print(response2.text)
-        # print(response.text)
         # Parse the response using Beautiful Soup
-        soup = BeautifulSoup(response.text, 'html.parser')
+        # print(response2.text)
+        soup = BeautifulSoup(response2.text, 'html.parser')
+        #Find the table
+        table = soup.find('table')
+        #Find all the rows in the table
+        if table!='None':
+            rows = table.find_all('tr')
+        #Print the contents of each cell of every row
+        for row in rows:
+            headers=row.find_all('th')
+            for header in headers:
+                print(header)
+            cells=row.find_all('td')
+            for cell in cells:
+                print(cell.text)
+                
 
         # print(soup.get_text())
         
@@ -77,8 +90,8 @@ def login_and_scrape(username, password):
     session.close()
     # Close the browser
     driver.close()
-username='USERNAME'
-password='PASSWORD'
+username='mkaleem.bscs22seecs'
+password='4IE8bhkp1234!@#$'
 login_and_scrape(username, password)
 
 
