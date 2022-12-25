@@ -46,7 +46,6 @@ def login_and_scrape(username, password):
     all_links=[]
     for link in anchors:
         if(link.get('href') != '#'):
-            
             linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
             all_links.append(linkT)
     for link in all_links:
@@ -71,18 +70,32 @@ def login_and_scrape(username, password):
         soup = BeautifulSoup(response2.text, 'html.parser')
         #Find the table
         table = soup.find('table')
+        data=[] #Array to store all the data
         #Find all the rows in the table
         if table!='None':
             rows = table.find_all('tr')
+        header_data=[]
+        cell_data=[]
         #Print the contents of each cell of every row
         for row in rows:
             headers=row.find_all('th')
-            for header in headers:
-                print(header)
             cells=row.find_all('td')
+            # header_data = [header.get_text() for header in headers]
+            # cell_data = [cell.get_text() for cell in cells]        
+            for header in headers:
+                header_data.append(header.get_text())
             for cell in cells:
-                print(cell.text)
-                
+                cell_data.append(cell.get_text()) 
+        data.append(header_data)
+        data.append(cell_data)
+        print(data)
+        # Open a new file in write mode
+    with open('scraped_data.txt', 'w') as f:
+    # Iterate over the elements of the list
+        for row in data:
+            for element in row:
+                f.write(element + "\t")
+            f.write("\n")
 
         # print(soup.get_text())
         
