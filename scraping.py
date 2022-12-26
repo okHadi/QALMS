@@ -35,13 +35,11 @@ def login_and_scrape(username, password):
     
     
     # Scrape the dashboard page
-    html = driver.page_source
-    soup = BeautifulSoup(html, 'html.parser')
-    # Do something with the scraped data
-    # title=soup.title.string
-    # print(title)
+    # html = driver.page_source
+    # soup = BeautifulSoup(html, 'html.parser')
 
     
+    #RESULTS DATA:
     anchors=soup.find_all('a',href=re.compile(r'results/id/'))
     all_links=[]
     for link in anchors:
@@ -49,19 +47,6 @@ def login_and_scrape(username, password):
             linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
             all_links.append(linkT)
     for link in all_links:
-        # driver = webdriver.Chrome("chromedriver")
-        # driver.get("https://qalam.nust.edu.pk/")
-        # username_field = driver.find_element(By.ID, 'login')
-        # username_field.send_keys(username)
-
-        # password_field = driver.find_element(By.ID, 'password')
-        # password_field.send_keys(password)
-
-        # # Click the login button
-        # driver.find_element(By.CLASS_NAME,"btn-nust").click()
-
-        # # Wait for the dashboard page to load
-        # driver.implicitly_wait(10)
 
         # Send an HTTP request to the URL of the current link
         response2 = session.get(link,cookies=auth_keys)
@@ -88,7 +73,6 @@ def login_and_scrape(username, password):
                 cell_data.append(cell.get_text()) 
         data.append(header_data)
         data.append(cell_data)
-        print(data)
         # Open a new file in write mode
     with open('scraped_data.txt', 'w') as f:
     # Iterate over the elements of the list
@@ -99,7 +83,28 @@ def login_and_scrape(username, password):
 
         # print(soup.get_text())
         
-    # Close the session
+    #ATTENDANCE DATA:
+    html2=session.get("https://qalam.nust.edu.pk/student/attendance",cookies=auth_keys)
+    attendancesoup=BeautifulSoup(html2.text, 'html.parser')
+    attanchors=attendancesoup.find_all('a',href=re.compile(r'attendancedetail/id/'))
+    attd_links=[]
+    for link in attanchors:
+        if(link.get('href') != '#'):
+            linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
+            attd_links.append(linkT)
+    for link in attd_links:
+        attendance = session.get(link,cookies=auth_keys)
+        attendancesoup=BeautifulSoup(attendance.text,'html.parser')
+        elements=attendancesoup.find_all(class_="md-color-blue-grey-900")
+        attd_data=[]
+        for element in elements:
+            attd_data.append(element.get_text())
+        with open('attd_data.txt', 'w') as f:
+        #Iterate over the elements of the list
+            for element in attd_data:
+                f.write(element +"\n")
+             
+    #  Close the session
     session.close()
     # Close the browser
     driver.close()

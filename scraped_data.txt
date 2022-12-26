@@ -15,16 +15,6 @@ Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Ave
                                                                                     	
                                                                                         75.00
                                                                                     	
-                                                                                        Midterm-CLO-I
-                                                                                    	
-                                                                                        30.0
-                                                                                    	
-                                                                                        23.00
-                                                                                    	
-                                                                                        21.89
-                                                                                    	
-                                                                                        76.67
-                                                                                    	
                                                                                         Midterm-CLO-III
                                                                                     	
                                                                                         30.0
@@ -34,6 +24,16 @@ Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Ave
                                                                                         19.62
                                                                                     	
                                                                                         73.33
+                                                                                    	
+                                                                                        Midterm-CLO-I
+                                                                                    	
+                                                                                        30.0
+                                                                                    	
+                                                                                        23.00
+                                                                                    	
+                                                                                        21.89
+                                                                                    	
+                                                                                        76.67
                                                                                     	
 
                                                                                     Assignment
@@ -55,16 +55,6 @@ Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Ave
                                                                                 
 	
 	
-                                                                                        Quiz-III
-                                                                                    	
-                                                                                        10.0
-                                                                                    	
-                                                                                        6.50
-                                                                                    	
-                                                                                        5.65
-                                                                                    	
-                                                                                        65.00
-                                                                                    	
                                                                                         Quiz-I
                                                                                     	
                                                                                         10.0
@@ -84,4 +74,14 @@ Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Ave
                                                                                         5.93
                                                                                     	
                                                                                         50.00
+                                                                                    	
+                                                                                        Quiz-III
+                                                                                    	
+                                                                                        10.0
+                                                                                    	
+                                                                                        6.50
+                                                                                    	
+                                                                                        5.65
+                                                                                    	
+                                                                                        65.00
                                                                                     	
