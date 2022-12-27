@@ -17,7 +17,7 @@ def logging(username, password):
 
     # wait the ready state to be complete
     WebDriverWait(driver=driver, timeout=10).until(
-        lambda x: x.execute_script("return document.readyState === 'complete'")
+    lambda x: x.execute_script("return document.readyState === 'complete'")
     )
     error_message = "Incorrect username or password."
     currentURL = driver.current_url
