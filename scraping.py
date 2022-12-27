@@ -8,7 +8,9 @@ import re
 def login_and_scrape(username, password):
     session=requests.Session()
     # Create a new Chrome browser
-    driver = webdriver.Chrome("chromedriver")
+    chrome_options = webdriver.chrome.options.Options()
+    chrome_options.headless = True          #set the headless option
+    driver = webdriver.Chrome("chromedriver", options=chrome_options)
 
     # Navigate to the login page
     driver.get("https://qalam.nust.edu.pk/")
@@ -35,8 +37,8 @@ def login_and_scrape(username, password):
     
     
     # Scrape the dashboard page
-    # html = driver.page_source
-    # soup = BeautifulSoup(html, 'html.parser')
+    html = driver.page_source
+    soup = BeautifulSoup(html, 'html.parser')
 
     
     #RESULTS DATA:
@@ -65,8 +67,8 @@ def login_and_scrape(username, password):
         for row in rows:
             headers=row.find_all('th')
             cells=row.find_all('td')
-            # header_data = [header.get_text() for header in headers]
-            # cell_data = [cell.get_text() for cell in cells]        
+            #header_data = [header.get_text() for header in headers]
+            #cell_data = [cell.get_text() for cell in cells]        
             for header in headers:
                 header_data.append(header.get_text())
             for cell in cells:
@@ -108,9 +110,6 @@ def login_and_scrape(username, password):
     session.close()
     # Close the browser
     driver.close()
-username='USERNAME'
-password='PASSWORD'
-login_and_scrape(username, password)
 
 
 
