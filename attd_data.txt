@@ -76,7 +76,7 @@ Number of classes Attended :
 
 
 Attendance Percentage:
-100.0
+90.91
 
 
 Course :
