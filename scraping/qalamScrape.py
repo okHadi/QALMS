@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-def login_and_scrape(username, password):
+def qalamScrape(username, password):
     session=requests.Session()
     # Create a new Chrome browser
     chrome_options = webdriver.chrome.options.Options()
@@ -44,7 +44,7 @@ def login_and_scrape(username, password):
     #RESULTS DATA:
     anchors=soup.find_all('a',href=re.compile(r'results/id/'))
     all_links=[]
-    open('results.txt', 'a').close()  #resets the results file to 0
+    open('txtData/results.txt', 'a').close()  #resets the results file to 0
     for link in anchors:
         if(link.get('href') != '#'):
             linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
@@ -78,7 +78,7 @@ def login_and_scrape(username, password):
         data.append(cell_data)
         # Open a new file in write mode
 
-    with open('results.txt', 'a') as f:
+    with open('txtData/results.txt', 'a') as f:
     # Iterate over the elements of the list
         for row in data:
             for element in row:
@@ -92,7 +92,7 @@ def login_and_scrape(username, password):
     attendancesoup=BeautifulSoup(html2.text, 'html.parser')
     attanchors=attendancesoup.find_all('a',href=re.compile(r'attendancedetail/id/'))
     attd_links=[]
-    open('attd_data.txt', 'w').close() #resets the attendance file to 0
+    open('txtData/attd_data.txt', 'w').close() #resets the attendance file to 0
     for link in attanchors:
         if(link.get('href') != '#'):
             linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
@@ -106,7 +106,7 @@ def login_and_scrape(username, password):
         for element in elements:
             attd_data.append(element.get_text())
         
-        with open('attd_data.txt', 'a') as f:
+        with open('txtData/attd_data.txt', 'a') as f:
         #Iterate over the elements of the list
             for element in attd_data:
                 f.write(element +"\n")

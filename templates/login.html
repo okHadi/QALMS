@@ -8,6 +8,7 @@
         flex-direction: column;
         align-items: center;
         width: 300px;
+        margin: 0 auto;
         border: 2px solid #ccc;
         border-radius: 4px;
         padding: 20px;
@@ -48,20 +49,15 @@
         margin: 10px 0;
         text-align: center;
       }
-      nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+      header {
         background-color: #2596be;
         color: white;
-        padding: 10px 20px;
+        text-align: center;
+        padding: 20px;
       }
-      nav a {
-        color: white;
-        text-decoration: none;
-      }
-      nav a:hover {
-        text-decoration: underline;
+      h2 {
+        font-size: 2em;
+        margin: 0;
       }
       footer {
         text-align: center;
@@ -71,11 +67,9 @@
     </style>
   </head>
   <body>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
+    <header>
+      <h2>QALMS: QALAM and LMS reimagined</h2>
+    </header>
     <h1>Login to Qalam and LMS</h1>
     <img src="{{ url_for('static', filename='qalam.png') }}" alt="Logo" />
     {% if error %}
@@ -93,6 +87,6 @@
       <br />
       <input type="submit" value="Submit" />
     </form>
-    <footer>&copy; 2021 Company Name</footer>
+    <footer>&copy; 2023 Ghazali Labs</footer>
   </body>
 </html>

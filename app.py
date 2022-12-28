@@ -1,5 +1,6 @@
-from logindata import logging
-from scraping import login_and_scrape
+from login.qalamLogin import qalamLogin
+from login.lmsLogin import lmsLogin
+from scraping.qalamScrape import qalamScrape
 from flask import Flask, render_template, request, redirect, url_for, session    #render_template() looks for a template (HTML file) in the templates folder.
 app = Flask(__name__)   #creates a flask object that will be run
 
@@ -20,7 +21,7 @@ def login():
             # Validate the form data
         if not all([username, qalampass, lmspass]):
             error = 'All fields are required'
-        elif logging(username, qalampass) == "Login failed":
+        elif qalamLogin(username, qalampass) == "Login failed" and lmsLogin(username, lmspass) == "Login failed" :
             error = 'Invalid Credentials. Please try again.'
         else:
             session['logged_in'] = True
@@ -35,7 +36,8 @@ def home():
     else:
         username = session.get('username', '')
         qalampass = session.get('qalampass', '')
-        login_and_scrape(username, qalampass)
+        lmspass = session.get('lmspass', '')
+        qalamScrape(username, qalampass)
         return render_template("home.html")
 
 
