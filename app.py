@@ -22,12 +22,17 @@ def login():
             # Validate the form data
         if not all([username, qalampass, lmspass]):
             error = 'All fields are required'
-        elif lmsLogin(username, lmspass) == "Login failed" and qalamLogin(username, qalampass) == "Login failed" :
-            error = 'Invalid Credentials. Please try again.'
+            return render_template("login.html", error=error)          #we can pass the values to be shown in the login.html as parameters of render_template
+        elif lmsLogin(username, lmspass) == "Login failed":
+            error = 'Invalid LMS username or password. Please try again.'
+            return render_template("login.html", error=error)          #we can pass the values to be shown in the login.html as parameters of render_template
+        elif qalamLogin(username, qalampass) == "Login failed" :
+            error = 'Invalid QALAM username or password. Please try again.'
+            return render_template("login.html", error=error)          #we can pass the values to be shown in the login.html as parameters of render_template
         else:
             session['logged_in'] = True
             return redirect(url_for('home'))     #sends the login data to the home page, so we can properly login again
-    return render_template("login.html", error=error)          #we can pass the values to be shown in the login.html as parameters of render_template
+    return render_template("login.html", error=error)
 
 
 @app.route('/', methods=['GET'])

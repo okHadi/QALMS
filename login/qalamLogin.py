@@ -3,7 +3,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 def qalamLogin(username, password):
     chrome_options = webdriver.chrome.options.Options()
-    chrome_options.headless = True          #set the headless option
+    chrome_options.headless = False          #set the headless option
     driver = webdriver.Chrome("chromedriver", options=chrome_options)
 
     # head to github login page

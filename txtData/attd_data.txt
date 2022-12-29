@@ -1,10 +1,254 @@
 
 Course :
-Discrete Mathematics
+Fundamentals of ICT
+
+
+Course :
+Fundamentals of ICT
 
 
 Course Code :
-MATH-161-F22-SEECS/BSCS/2022F-B-lecture
+CS-100-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Course :
+Fundamentals of ICT
+
+
+Course Code :
+CS-100-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Number of classes Conducted :
+31
+
+
+Course :
+Fundamentals of ICT
+
+
+Course Code :
+CS-100-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Number of classes Conducted :
+31
+
+
+Number of classes Attended :
+30
+
+
+Course :
+Fundamentals of ICT
+
+
+Course Code :
+CS-100-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Number of classes Conducted :
+31
+
+
+Number of classes Attended :
+30
+
+
+Attendance Percentage:
+96.77
+
+
+Course :
+Fundamentals of ICT
+
+
+Course Code :
+CS-100-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Number of classes Conducted :
+31
+
+
+Number of classes Attended :
+30
+
+
+Attendance Percentage:
+96.77
+
+
+Course :
+Fundamentals of ICT
+
+
+Course :
+Fundamentals of ICT
+
+
+Course Code :
+CS-100-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Number of classes Conducted :
+31
+
+
+Number of classes Attended :
+30
+
+
+Attendance Percentage:
+96.77
+
+
+Course :
+Fundamentals of ICT
+
+
+Course Code :
+CS-100-F22-SEECS/BSCS/2022F-B-lab
+
+
+Course :
+Fundamentals of ICT
+
+
+Course Code :
+CS-100-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Number of classes Conducted :
+31
+
+
+Number of classes Attended :
+30
+
+
+Attendance Percentage:
+96.77
+
+
+Course :
+Fundamentals of ICT
+
+
+Course Code :
+CS-100-F22-SEECS/BSCS/2022F-B-lab
+
+
+Number of classes Conducted :
+15
+
+
+Course :
+Fundamentals of ICT
+
+
+Course Code :
+CS-100-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Number of classes Conducted :
+31
+
+
+Number of classes Attended :
+30
+
+
+Attendance Percentage:
+96.77
+
+
+Course :
+Fundamentals of ICT
+
+
+Course Code :
+CS-100-F22-SEECS/BSCS/2022F-B-lab
+
+
+Number of classes Conducted :
+15
+
+
+Number of classes Attended :
+15
+
+
+Course :
+Fundamentals of ICT
+
+
+Course Code :
+CS-100-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Number of classes Conducted :
+31
+
+
+Number of classes Attended :
+30
+
+
+Attendance Percentage:
+96.77
+
+
+Course :
+Fundamentals of ICT
+
+
+Course Code :
+CS-100-F22-SEECS/BSCS/2022F-B-lab
+
+
+Number of classes Conducted :
+15
+
+
+Number of classes Attended :
+15
+
+
+Attendance Percentage:
+100.0
+
+
+Course :
+Fundamentals of Computer Programming
+
+
+Course :
+Fundamentals of Computer Programming
+
+
+Course Code :
+CS-110-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Course :
+Fundamentals of Computer Programming
+
+
+Course Code :
+CS-110-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Number of classes Conducted :
+45
+
+
+Course :
+Fundamentals of Computer Programming
+
+
+Course Code :
+CS-110-F22-SEECS/BSCS/2022F-B-lecture
 
 
 Number of classes Conducted :
@@ -12,9 +256,185 @@ Number of classes Conducted :
 
 
 Number of classes Attended :
-39
+42
+
+
+Course :
+Fundamentals of Computer Programming
+
+
+Course Code :
+CS-110-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Number of classes Conducted :
+45
+
+
+Number of classes Attended :
+42
 
 
 Attendance Percentage:
-88.64
+93.33
+
+
+Course :
+Fundamentals of Computer Programming
+
+
+Course Code :
+CS-110-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Number of classes Conducted :
+45
+
+
+Number of classes Attended :
+42
+
+
+Attendance Percentage:
+93.33
+
+
+Course :
+Fundamentals of Computer Programming
+
+
+Course :
+Fundamentals of Computer Programming
+
+
+Course Code :
+CS-110-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Number of classes Conducted :
+45
+
+
+Number of classes Attended :
+42
+
+
+Attendance Percentage:
+93.33
+
+
+Course :
+Fundamentals of Computer Programming
+
+
+Course Code :
+CS-110-F22-SEECS/BSCS/2022F-B-lab
+
+
+Course :
+Fundamentals of Computer Programming
+
+
+Course Code :
+CS-110-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Number of classes Conducted :
+45
+
+
+Number of classes Attended :
+42
+
+
+Attendance Percentage:
+93.33
+
+
+Course :
+Fundamentals of Computer Programming
+
+
+Course Code :
+CS-110-F22-SEECS/BSCS/2022F-B-lab
+
+
+Number of classes Conducted :
+11
+
+
+Course :
+Fundamentals of Computer Programming
+
+
+Course Code :
+CS-110-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Number of classes Conducted :
+45
+
+
+Number of classes Attended :
+42
+
+
+Attendance Percentage:
+93.33
+
+
+Course :
+Fundamentals of Computer Programming
+
+
+Course Code :
+CS-110-F22-SEECS/BSCS/2022F-B-lab
+
+
+Number of classes Conducted :
+11
+
+
+Number of classes Attended :
+10
+
+
+Course :
+Fundamentals of Computer Programming
+
+
+Course Code :
+CS-110-F22-SEECS/BSCS/2022F-B-lecture
+
+
+Number of classes Conducted :
+45
+
+
+Number of classes Attended :
+42
+
+
+Attendance Percentage:
+93.33
+
+
+Course :
+Fundamentals of Computer Programming
+
+
+Course Code :
+CS-110-F22-SEECS/BSCS/2022F-B-lab
+
+
+Number of classes Conducted :
+11
+
+
+Number of classes Attended :
+10
+
+
+Attendance Percentage:
+90.91
 

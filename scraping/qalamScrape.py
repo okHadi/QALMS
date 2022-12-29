@@ -110,17 +110,17 @@ def qalamScrape(username, password):
         if(link.get('href') != '#'):
             linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
             attd_links.append(linkT)
-    for link in attd_links:
-        attendance = session.get(link,cookies=auth_keys)
-        attendancesoup=BeautifulSoup(attendance.text,'html.parser')
-        elements=attendancesoup.find_all(class_="md-color-blue-grey-900")
-        attd_data=[]
-        for element in elements:
-            attd_data.append(element.get_text())
-        with open('txtData/attd_data.txt', 'w') as f:
-        #Iterate over the elements of the list
-            for element in attd_data:
-                f.write(element +"\n")
+    with open('txtData/attd_data.txt', 'w') as f:
+        for link in attd_links:
+            attendance = session.get(link,cookies=auth_keys)
+            attendancesoup=BeautifulSoup(attendance.text,'html.parser')
+            elements=attendancesoup.find_all(class_="md-color-blue-grey-900")
+            attd_data=[]
+            for element in elements:
+                attd_data.append(element.get_text())
+            #Iterate over the elements of the list
+                for element in attd_data:
+                    f.write(element +"\n")
     f.close()         
     #  Close the session
     session.close()
