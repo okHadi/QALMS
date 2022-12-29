@@ -55,7 +55,7 @@ def qalamScrape(username, password):
     
 
     
-    #RESULTS DATA:
+   #RESULTS DATA:
     anchors=dashsoup.find_all('a',href=re.compile(r'results/id/'))
     all_links=[]
     for link in anchors:
@@ -63,13 +63,12 @@ def qalamScrape(username, password):
             linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
             all_links.append(linkT)
     # Open a new file in write mode
-    with open('txtData/results.txt', 'w') as f:
+    with open('txtData/results', 'w') as f:
         for link in all_links:
 
          # Send an HTTP request to the URL of the current link
             response2 = session.get(link,cookies=auth_keys)
             # Parse the response using Beautiful Soup
-            # print(response2.text)
             soup = BeautifulSoup(response2.text, 'html.parser')
             #Find the table
             table = soup.find('table')
@@ -87,17 +86,19 @@ def qalamScrape(username, password):
                 #cell_data = [cell.get_text() for cell in cells]        
                 for header in headers:
                     header_data.append(header.get_text())
+                    f.write(header.get_text()+"\n")
                 for cell in cells:
                     cell_data.append(cell.get_text()) 
+                    f.write(cell.get_text()+"\n")
             data.append(header_data)
             data.append(cell_data)
             
     
         # Iterate over the elements of the list
-            for row in data:
-                for element in row:
-                    f.write(element + "\t")
-                f.write("\n")
+            # for row in data:
+            #     for element in row:
+            #         f.write(element + "\t")
+            #     f.write("\n")
 
         # print(soup.get_text())
     f.close()    

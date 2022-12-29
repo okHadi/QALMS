@@ -1,6 +1,7 @@
 from login.lmsLogin import lmsLogin
 from login.qalamLogin import qalamLogin
 from scraping.qalamScrape import qalamScrape
+from scraping.lmsScrape import lmsScrape
 from txtData.attd_data import extractAttd
 from flask import Flask, render_template, request, redirect, url_for, session    #render_template() looks for a template (HTML file) in the templates folder.
 app = Flask(__name__)   #creates a flask object that will be run
@@ -44,6 +45,7 @@ def home():
         qalampass = session.get('qalampass', '')
         lmspass = session.get('lmspass', '')
         qalamScrape(username, qalampass)
+        lmsScrape(username, lmspass)
         attdData = extractAttd()
         print(attdData)
         return render_template("home.html")
