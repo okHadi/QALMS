@@ -2,36 +2,6 @@
                                             
                                                 
                                                     
-                                                        Communication and Interpersonal Skills
-                                                        :
-                                                    
-
-                                                        12:00
-                                                        Hrs. -
-                                                        13:00
-                                                        Hrs.
-                                                    
-
-                                                        Discrete Mathematics
-                                                        :
-                                                    
-
-                                                        11:00
-                                                        Hrs. -
-                                                        12:00
-                                                        Hrs.
-                                                    
-
-                                                        Fundamentals of Computer Programming
-                                                        :
-                                                    
-
-                                                        14:00
-                                                        Hrs. -
-                                                        17:00
-                                                        Hrs.
-                                                    
-
                                                         Calculus-I
                                                         :
                                                     
@@ -42,12 +12,32 @@
                                                         Hrs.
                                                     
 
-                                                        Calculus-I
+                                                        Discrete Mathematics
                                                         :
                                                     
 
                                                         10:00
                                                         Hrs. -
                                                         11:00
+                                                        Hrs.
+                                                    
+
+                                                        Fundamentals of Computer Programming
+                                                        :
+                                                    
+
+                                                        11:00
+                                                        Hrs. -
+                                                        12:00
+                                                        Hrs.
+                                                    
+
+                                                        Pakistan Studies
+                                                        :
+                                                    
+
+                                                        14:00
+                                                        Hrs. -
+                                                        15:00
                                                         Hrs.
                                                     

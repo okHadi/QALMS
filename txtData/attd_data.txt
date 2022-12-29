@@ -1,14 +1,14 @@
 
 Course :
-Communication and Interpersonal Skills
+Discrete Mathematics
 
 
 Course Code :
-HU-108-F22-SEECS/BSCS/2022F-B-lecture
+MATH-161-F22-SEECS/BSCS/2022F-B-lecture
 
 
 Number of classes Conducted :
-41
+45
 
 
 Number of classes Attended :
@@ -16,5 +16,5 @@ Number of classes Attended :
 
 
 Attendance Percentage:
-95.12
+88.64
 
