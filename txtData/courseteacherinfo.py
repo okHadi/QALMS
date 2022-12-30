@@ -2,7 +2,7 @@ def teacherinfo():
     result = {}
 
     # Open the file and read the data
-    with open("courseteacherinfo.txt", "r") as f:
+    with open("txtData/courseteacherinfo.txt", "r") as f:
         data = f.readlines()
 
     # Initialize variables to store the course name, instructor name, and instructor email

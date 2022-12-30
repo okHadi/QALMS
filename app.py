@@ -44,13 +44,12 @@ def login():
 
 @app.route('/', methods=['GET'])
 def home():
-    if session['logged_in'] == False:
+    if 'logged_in' not in session:
         return redirect(url_for('login'))
     else:
-        if login == 1:
-            username = session.get('username', '')
-            lmspass = session.get('lmspass', '')
-            lmsScrape(username, lmspass)
+        username = session.get('username', '')
+        lmspass = session.get('lmspass', '')
+        lmsScrape(username, lmspass)
         attdData = extractAttd()
         timetabledata = extactTimeTable()
         teacherInfo = teacherinfo()

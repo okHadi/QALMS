@@ -27,14 +27,14 @@ def lmsScrape(luser, lpass):
     WebDriverWait(driver=driver, timeout=10).until(
         lambda x: x.execute_script("return document.readyState === 'complete'")
     )
-
+    # driver.implicitly_wait(30)
     auth_keysLMS = {c["name"]: c["value"] for c in driver.get_cookies()}
     currentURL = driver.current_url
     
     if currentURL == "https://lms.nust.edu.pk/portal/my/":
-        print("Login successful")
+        print("Login succesful")
     else:
-        print("Login failed")
+        return "Login failed"
     lmshtml=LMSsession.get("https://lms.nust.edu.pk/portal/?redirect=0",cookies=auth_keysLMS)
     lmssoup=BeautifulSoup(lmshtml.text,'html.parser')
     anchors=lmssoup.find_all('a',href=re.compile(r'portal/course/view'))
@@ -61,7 +61,8 @@ def lmsScrape(luser, lpass):
                         f.write(prof.get_text()+"\n")
                         emailsearch=LMSsession.get(prof.get('href'),cookies=auth_keysLMS)
                         emailsoup=BeautifulSoup(emailsearch.text,'html.parser')
-                        emails=emailsoup.find_all('a',href=re.compile(r'mailto:%'))
+                        emails = emailsoup.find_all('a', href=re.compile(r'mailto:'), text=lambda t: t.text!='lms@seecs.edu.pk')
+                        print(emails)
                         emaillist=[]
                         for email in emails:
                             emaillist.append(email)
