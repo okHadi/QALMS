@@ -123,21 +123,6 @@ Obtained Marks
 Class Average
 Percentage
 
-                                                                                        Q2
-                                                                                    
-
-                                                                                        10.0
-                                                                                    
-
-                                                                                        10.00
-                                                                                    
-
-                                                                                        7.05
-                                                                                    
-
-                                                                                        100.00
-                                                                                    
-
                                                                                         Q1
                                                                                     
 
@@ -151,6 +136,21 @@ Percentage
                                                                                     
 
                                                                                         90.00
+                                                                                    
+
+                                                                                        Q2
+                                                                                    
+
+                                                                                        10.0
+                                                                                    
+
+                                                                                        10.00
+                                                                                    
+
+                                                                                        7.05
+                                                                                    
+
+                                                                                        100.00
                                                                                     
 
 
@@ -192,21 +192,6 @@ Obtained Marks
 Class Average
 Percentage
 
-                                                                                        A-2
-                                                                                    
-
-                                                                                        10.0
-                                                                                    
-
-                                                                                        8.00
-                                                                                    
-
-                                                                                        8.17
-                                                                                    
-
-                                                                                        80.00
-                                                                                    
-
                                                                                         A-3
                                                                                     
 
@@ -235,6 +220,21 @@ Percentage
                                                                                     
 
                                                                                         100.00
+                                                                                    
+
+                                                                                        A-2
+                                                                                    
+
+                                                                                        10.0
+                                                                                    
+
+                                                                                        8.00
+                                                                                    
+
+                                                                                        8.17
+                                                                                    
+
+                                                                                        80.00
                                                                                     
 
 
@@ -305,6 +305,21 @@ Obtained Marks
 Class Average
 Percentage
 
+                                                                                        Class Presentations
+                                                                                    
+
+                                                                                        10.0
+                                                                                    
+
+                                                                                        0.00
+                                                                                    
+
+                                                                                        0.00
+                                                                                    
+
+                                                                                        0.00
+                                                                                    
+
                                                                                         Assignment 1
                                                                                     
 
@@ -333,21 +348,6 @@ Percentage
                                                                                     
 
                                                                                         90.00
-                                                                                    
-
-                                                                                        Class Presentations
-                                                                                    
-
-                                                                                        10.0
-                                                                                    
-
-                                                                                        0.00
-                                                                                    
-
-                                                                                        0.00
-                                                                                    
-
-                                                                                        0.00
                                                                                     
 
 
@@ -562,21 +562,6 @@ Obtained Marks
 Class Average
 Percentage
 
-                                                                                        Assignment 3
-                                                                                    
-
-                                                                                        10.0
-                                                                                    
-
-                                                                                        9.50
-                                                                                    
-
-                                                                                        9.06
-                                                                                    
-
-                                                                                        95.00
-                                                                                    
-
                                                                                         Assignment 1
                                                                                     
 
@@ -605,6 +590,21 @@ Percentage
                                                                                     
 
                                                                                         87.50
+                                                                                    
+
+                                                                                        Assignment 3
+                                                                                    
+
+                                                                                        10.0
+                                                                                    
+
+                                                                                        9.50
+                                                                                    
+
+                                                                                        9.06
+                                                                                    
+
+                                                                                        95.00
                                                                                     
 
                                                                                         Assignment 4
@@ -773,21 +773,6 @@ Obtained Marks
 Class Average
 Percentage
 
-                                                                                        Midterm-CLO-III
-                                                                                    
-
-                                                                                        30.0
-                                                                                    
-
-                                                                                        22.00
-                                                                                    
-
-                                                                                        19.62
-                                                                                    
-
-                                                                                        73.33
-                                                                                    
-
                                                                                         Midterm
                                                                                     
 
@@ -816,6 +801,21 @@ Percentage
                                                                                     
 
                                                                                         81.67
+                                                                                    
+
+                                                                                        Midterm-CLO-III
+                                                                                    
+
+                                                                                        30.0
+                                                                                    
+
+                                                                                        22.00
+                                                                                    
+
+                                                                                        19.62
+                                                                                    
+
+                                                                                        73.33
                                                                                     
 
 
@@ -872,21 +872,6 @@ Percentage
                                                                                         65.00
                                                                                     
 
-                                                                                        Quiz-II
-                                                                                    
-
-                                                                                        10.0
-                                                                                    
-
-                                                                                        6.00
-                                                                                    
-
-                                                                                        5.93
-                                                                                    
-
-                                                                                        60.00
-                                                                                    
-
                                                                                         Quiz-I
                                                                                     
 
@@ -900,6 +885,21 @@ Percentage
                                                                                     
 
                                                                                         65.00
+                                                                                    
+
+                                                                                        Quiz-II
+                                                                                    
+
+                                                                                        10.0
+                                                                                    
+
+                                                                                        6.00
+                                                                                    
+
+                                                                                        5.93
+                                                                                    
+
+                                                                                        60.00
                                                                                     
 Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	
 
@@ -908,16 +908,6 @@ Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Ave
                                                                                 
 	
 	
-                                                                                        Midterm-CLO-III
-                                                                                    	
-                                                                                        30.0
-                                                                                    	
-                                                                                        22.00
-                                                                                    	
-                                                                                        19.62
-                                                                                    	
-                                                                                        73.33
-                                                                                    	
                                                                                         Midterm
                                                                                     	
                                                                                         60.0
@@ -937,6 +927,16 @@ Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Ave
                                                                                         21.89
                                                                                     	
                                                                                         81.67
+                                                                                    	
+                                                                                        Midterm-CLO-III
+                                                                                    	
+                                                                                        30.0
+                                                                                    	
+                                                                                        22.00
+                                                                                    	
+                                                                                        19.62
+                                                                                    	
+                                                                                        73.33
                                                                                     	
 
                                                                                     Assignment
@@ -968,16 +968,6 @@ Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Ave
                                                                                     	
                                                                                         65.00
                                                                                     	
-                                                                                        Quiz-II
-                                                                                    	
-                                                                                        10.0
-                                                                                    	
-                                                                                        6.00
-                                                                                    	
-                                                                                        5.93
-                                                                                    	
-                                                                                        60.00
-                                                                                    	
                                                                                         Quiz-I
                                                                                     	
                                                                                         10.0
@@ -987,4 +977,14 @@ Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Ave
                                                                                         6.66
                                                                                     	
                                                                                         65.00
+                                                                                    	
+                                                                                        Quiz-II
+                                                                                    	
+                                                                                        10.0
+                                                                                    	
+                                                                                        6.00
+                                                                                    	
+                                                                                        5.93
+                                                                                    	
+                                                                                        60.00
                                                                                     	
