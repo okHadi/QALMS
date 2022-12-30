@@ -48,11 +48,11 @@ CS-110-F22-SEECS/BSCS/2022F-B-lecture
 
 
 Number of classes Conducted :
-45
+47
 
 
 Number of classes Attended :
-42
+44
 
 
 Attendance Percentage:
@@ -128,7 +128,7 @@ HU-107-F22-SEECS/BSCS/2022F-B-lecture
 
 
 Number of classes Conducted :
-30
+31
 
 
 Number of classes Attended :

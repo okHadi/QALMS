@@ -43,9 +43,7 @@ def home():
         return redirect(url_for('login'))
     else:
         username = session.get('username', '')
-        qalampass = session.get('qalampass', '')
         lmspass = session.get('lmspass', '')
-        qalamScrape(username, qalampass)
         lmsScrape(username, lmspass)
         attdData = extractAttd()
         jsonAttd = json.loads(json.dumps(attdData))

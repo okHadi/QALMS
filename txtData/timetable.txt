@@ -2,17 +2,7 @@
                                             
                                                 
                                                     
-                                                        Calculus-I
-                                                        :
-                                                    
-
-                                                        09:00
-                                                        Hrs. -
-                                                        10:00
-                                                        Hrs.
-                                                    
-
-                                                        Discrete Mathematics
+                                                        Fundamentals of Computer Programming
                                                         :
                                                     
 
@@ -32,12 +22,22 @@
                                                         Hrs.
                                                     
 
+                                                        Fundamentals of ICT
+                                                        :
+                                                    
+
+                                                        09:00
+                                                        Hrs. -
+                                                        10:00
+                                                        Hrs.
+                                                    
+
                                                         Pakistan Studies
                                                         :
                                                     
 
-                                                        14:00
+                                                        12:00
                                                         Hrs. -
-                                                        15:00
+                                                        13:00
                                                         Hrs.
                                                     
