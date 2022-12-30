@@ -31,4 +31,5 @@ def teacherinfo():
                 "instructor_names": [instructor_name],
                 "instructor_emails": [instructor_email]
             }
+    del result[""]
     return result
