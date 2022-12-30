@@ -76,6 +76,9 @@
         border: 1px solid #ddd;
         padding: 8px;
       }
+      .email-link {
+        color: blue;
+      }
 
       #table tr:nth-child(even) {
         background-color: #f2f2f2;
@@ -84,7 +87,16 @@
       #table tr:hover {
         background-color: #ddd;
       }
+      .row {
+        margin-left: -5px;
+        margin-right: -5px;
+      }
 
+      .column {
+        float: left;
+        width: 50%;
+        padding: 5px;
+      }
       #table th {
         padding-top: 12px;
         padding-bottom: 12px;
@@ -128,22 +140,70 @@
         <li><a href="/login">Login</a></li>
       </ul>
     </header>
-    <h2>Attendance:</h2>
-    <table id="table">
-      <tr>
-        <th>Course</th>
-        <th>Number of Classes Conducted</th>
-        <th>Number of Classes Attended</th>
-        <th>Attendance Percentage</th>
-      </tr>
-      {% for i in range(data['length']) %}
-      <tr>
-        <td>{{ data['Course'][i] }}</td>
-        <td>{{ data['Number of Classes Conducted'][i] }}</td>
-        <td>{{ data['Number of Classes Attended'][i] }}</td>
-        <td>{{ data['Attendance Percentage'][i] }}</td>
-      </tr>
-      {% endfor %}
-    </table>
+    <div class="row">
+      <div class="column">
+        <h2>Attendance:</h2>
+        <table id="table">
+          <tr>
+            <th>Course</th>
+            <th>Number of Classes Conducted</th>
+            <th>Number of Classes Attended</th>
+            <th>Attendance Percentage</th>
+          </tr>
+          {% for i in range(attdData['length']) %}
+          <tr>
+            <td>{{ attdData['Course'][i] }}</td>
+            <td>{{ attdData['Number of Classes Conducted'][i] }}</td>
+            <td>{{ attdData['Number of Classes Attended'][i] }}</td>
+            <td>{{ attdData['Attendance Percentage'][i] }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+      <div class="column">
+        <h2>Today's timetable:</h2>
+        <table id="table">
+          <tr>
+            <th>Course</th>
+            {% for time in timetable['Time'] %}
+            <th>{{ time }}</th>
+            {% endfor %}
+          </tr>
+          {% for i in range(timetable['length']) %}
+          <tr>
+            <td>{{ timetable['Course'][i] }}</td>
+            {% for time in timetable['Time'] %}
+            <td>{{ timetable['Time'][time][i] }}</td>
+            {% endfor %}
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+      <div class="column">
+        <h2>Contact your Instructor:</h2>
+        <table id="table">
+          <thead>
+            <tr>
+              <th>Course</th>
+              <th>Instructor Names</th>
+              <th>Instructor Emails</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for course_name, course_info in teacherInfo.items() %}
+            <tr>
+              <td>{{ course_name }}</td>
+              <td>{{ course_info.instructor_names|join(', ') }}</td>
+              <td>
+                {% for email in course_info.instructor_emails %}
+                <a href="mailto:{{ email }}" style="color: blue">{{ email }}</a
+                >{% if not loop.last %}, {% endif %} {% endfor %}
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
   </body>
 </html>

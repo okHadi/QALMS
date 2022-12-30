@@ -5,7 +5,7 @@ def extractAttd():
     temp2 = 14
     temp3 = 18
     # Open the file in read mode
-    with open("attd_data.txt", "r") as file:
+    with open("txtData/attd_data.txt", "r") as file:
     # Read the entire file into a list of lines
         lines = file.readlines()
         # Access the specific line you want using the index of the list

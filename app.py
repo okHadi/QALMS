@@ -1,7 +1,8 @@
 from loginAndScrape.lmsLogin import lmsLogin
 from loginAndScrape.qalamLoginScrape import qalamLogin
 from loginAndScrape.lmsScrape import lmsScrape
-import json
+from txtData.courseteacherinfo import teacherinfo
+from txtData.timetable import extactTimeTable
 from txtData.attd_data import extractAttd
 from flask import Flask, render_template, request, redirect, url_for, session    #render_template() looks for a template (HTML file) in the templates folder.
 app = Flask(__name__)   #creates a flask object that will be run
@@ -51,8 +52,11 @@ def home():
             lmspass = session.get('lmspass', '')
             lmsScrape(username, lmspass)
         attdData = extractAttd()
-        jsonAttd = json.loads(json.dumps(attdData))
-        return render_template("home.html", data=jsonAttd)
+        timetabledata = extactTimeTable()
+        teacherInfo = teacherinfo()
+        attdData['length'] = len(attdData['Course'])
+        timetabledata['length'] = len(timetabledata['Course'])
+        return render_template("home.html",attdData=attdData, timetable=timetabledata, teacherInfo=teacherInfo)
 
 @app.route('/about', methods=['GET'])
 def about():
