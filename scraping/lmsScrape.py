@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
+from chromedriver.chromedriver import *
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -8,7 +9,7 @@ import re
 def lmsScrape(luser, lpass):
     chrome_options = webdriver.chrome.options.Options()
     chrome_options.headless = True          #set the headless option
-    driver = webdriver.Chrome("chromedriver", options=chrome_options)
+    driver = webdriver.Chrome(chromedriverpath, options=chrome_options)
     LMSsession=requests.Session()
     # head to LMS login page
     driver.get("https://lms.nust.edu.pk/portal/login/index.php")
@@ -42,7 +43,7 @@ def lmsScrape(luser, lpass):
         # if(link.get('href') != '#'):
         course_links.append(link.get('href'))
     # print(course_links)
-    with open('courseteacherinfo.txt', 'w') as f:
+    with open('txtData/courseteacherinfo.txt', 'w') as f:
         for link in course_links:
             lms = LMSsession.get(link,cookies=auth_keysLMS)
             coursesoup=BeautifulSoup(lms.text,'html.parser')

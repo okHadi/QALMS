@@ -1,10 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
+from chromedriver.chromedriver import *
 def lmsLogin(username, password):
     chrome_options = webdriver.chrome.options.Options()
-    chrome_options.headless = False          #set the headless option
-    driver = webdriver.Chrome("chromedriver", options=chrome_options)
+    chrome_options.headless = True          #set the headless option
+    driver = webdriver.Chrome(chromedriverpath, options=chrome_options)
 
     # head to github login page
     driver.get("https://lms.nust.edu.pk/portal/login/index.php")
@@ -24,9 +25,9 @@ def lmsLogin(username, password):
     error_message = "Incorrect username or password."
     currentURL = driver.current_url
     if currentURL == "https://lms.nust.edu.pk/portal/my/":
-        print("Login successful")
+        #print("Login successful")
         return "Login Successful"
     else:
-        print("Login failed")
+        #print("Login failed")
         return "Login failed"
     driver.close()

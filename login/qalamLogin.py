@@ -1,10 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
+from chromedriver.chromedriver import *
 def qalamLogin(username, password):
     chrome_options = webdriver.chrome.options.Options()
-    chrome_options.headless = False          #set the headless option
-    driver = webdriver.Chrome("chromedriver", options=chrome_options)
+    chrome_options.headless = True          #set the headless option
+    driver = webdriver.Chrome(chromedriverpath, options=chrome_options)
 
     # head to github login page
     driver.get("https://qalam.nust.edu.pk/")
@@ -24,9 +25,9 @@ def qalamLogin(username, password):
     error_message = "Incorrect username or password."
     currentURL = driver.current_url
     if currentURL == "https://qalam.nust.edu.pk/student/dashboard":
-        print("Login successful")
+        #print("Login successful")
         return "Login Successful"
     else:
-        print("Login failed")
+        #print("Login failed")
         return "Login failed"
     driver.close()

@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
+from chromedriver.chromedriver import *
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -10,7 +11,7 @@ def qalamScrape(username, password):
     # Create a new Chrome browser
     chrome_options = webdriver.chrome.options.Options()
     chrome_options.headless = True          #set the headless option
-    driver = webdriver.Chrome("chromedriver", options=chrome_options)
+    driver = webdriver.Chrome(chromedriverpath, options=chrome_options)
 
     # Navigate to the login page
     driver.get("https://qalam.nust.edu.pk/")
@@ -63,7 +64,7 @@ def qalamScrape(username, password):
             linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
             all_links.append(linkT)
     # Open a new file in write mode
-    with open('txtData/results', 'w') as f:
+    with open('txtData/results.txt', 'w') as f:
         for link in all_links:
 
          # Send an HTTP request to the URL of the current link
@@ -92,7 +93,12 @@ def qalamScrape(username, password):
                     f.write(cell.get_text()+"\n")
             data.append(header_data)
             data.append(cell_data)
-            
+        
+    # Iterate over the elements of the list
+        for row in data:
+            for element in row:
+                f.write(element + "\t")
+            f.write("\n")
     
         # Iterate over the elements of the list
             # for row in data:
@@ -120,8 +126,8 @@ def qalamScrape(username, password):
             for element in elements:
                 attd_data.append(element.get_text())
             #Iterate over the elements of the list
-                for element in attd_data:
-                    f.write(element +"\n")
+            for element in attd_data:
+                f.write(element +"\n")
     f.close()         
     #  Close the session
     session.close()

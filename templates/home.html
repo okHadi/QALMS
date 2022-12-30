@@ -1,14 +1,23 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>Flask Intro</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Table</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Here we will display all our data!</h2>
-      <br>
-      <p>Click <a href="/">here</a> to go home.</p>
-    </div>
+    <table>
+      <tr>
+        <th>Course</th>
+        <th>Number of Classes Conducted</th>
+        <th>Number of Classes Attended</th>
+        <th>Attendance Percentage</th>
+      </tr>
+      {% for i in range(8) %}
+      <tr>
+        <td>{{ data['Course'][i] }}</td>
+        <td>{{ data['Number of Classes Conducted'][i] }}</td>
+        <td>{{ data['Number of Classes Attended'][i] }}</td>
+        <td>{{ data['Attendance Percentage'][i] }}</td>
+      </tr>
+      {% endfor %}
+    </table>
   </body>
 </html>
