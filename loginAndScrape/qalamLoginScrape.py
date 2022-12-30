@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 def qalamLogin(username, password):
     session=requests.Session()
     chrome_options = webdriver.chrome.options.Options()
-    chrome_options.headless = False          #set the headless option
+    chrome_options.headless = True          #set the headless option
     driver = webdriver.Chrome(chromedriverpath, options=chrome_options)
 
     # head to github login page

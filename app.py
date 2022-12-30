@@ -13,6 +13,10 @@ app.secret_key = 'eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1Z
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     error = None
+    login = 0
+    session['logged_in'] = False
+    if session['logged_in'] == True:
+        return redirect(url_for('home'))
     if request.method == 'POST':
         username = request.form['username']
         qalampass = request.form['qalampass']
@@ -32,18 +36,20 @@ def login():
             return render_template("login.html", error=error)          #we can pass the values to be shown in the login.html as parameters of render_template
         else:
             session['logged_in'] = True
+            login += 1
             return redirect(url_for('home'))     #sends the login data to the home page, so we can properly login again
     return render_template("login.html", error=error)
 
 
 @app.route('/', methods=['GET'])
 def home():
-    if 'logged_in' not in session:
+    if session['logged_in'] == False:
         return redirect(url_for('login'))
     else:
-        username = session.get('username', '')
-        lmspass = session.get('lmspass', '')
-        lmsScrape(username, lmspass)
+        if login == 1:
+            username = session.get('username', '')
+            lmspass = session.get('lmspass', '')
+            lmsScrape(username, lmspass)
         attdData = extractAttd()
         jsonAttd = json.loads(json.dumps(attdData))
         return render_template("home.html", data=jsonAttd)

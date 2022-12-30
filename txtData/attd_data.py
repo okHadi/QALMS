@@ -5,7 +5,7 @@ def extractAttd():
     temp2 = 14
     temp3 = 18
     # Open the file in read mode
-    with open("txtData/attd_data.txt", "r") as file:
+    with open("attd_data.txt", "r") as file:
     # Read the entire file into a list of lines
         lines = file.readlines()
         # Access the specific line you want using the index of the list
@@ -26,4 +26,17 @@ def extractAttd():
             my_dict["Attendance Percentage"].append(a)
             temp3+=20
 
+    counts = {}
+    courses = my_dict['Course']
+    for el in courses:
+        if el in counts:
+            counts[el] += 1
+        else:
+            counts[el] = 1
+    for i, el in enumerate(courses):
+        if el in counts and counts[el] > 1:
+            courses[i+1] = el + " Lab"
+            counts[el] -= 1
+    my_dict['Course'] = courses
+    print(my_dict)
     return my_dict
