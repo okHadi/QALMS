@@ -1,7 +1,6 @@
-from login.lmsLogin import lmsLogin
-from login.qalamLogin import qalamLogin
-from scraping.qalamScrape import qalamScrape
-from scraping.lmsScrape import lmsScrape
+from loginAndScrape.lmsLogin import lmsLogin
+from loginAndScrape.qalamLoginScrape import qalamLogin
+from loginAndScrape.lmsScrape import lmsScrape
 import json
 from txtData.attd_data import extractAttd
 from flask import Flask, render_template, request, redirect, url_for, session    #render_template() looks for a template (HTML file) in the templates folder.
