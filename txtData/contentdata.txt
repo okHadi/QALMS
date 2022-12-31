@@ -1,0 +1,346 @@
+Mandatory Documents Upload
+Bachelors of Computer Science 2022 Intake Assignment
+Bachelors of Software Engineering 2022 Intake Assignment
+Bachelors of Electrical Engineering 2022 Intake Assignment
+HU107 Pakistan Studies BSCS 2k22 ABC
+Pakistan Studies 2+0 File
+Assignment #1 File
+India’s partition mapped out by blunders and blood URL
+The Great Divide URL
+Remembering partition: ‘It was like a slaughterhouse’ URL
+The Partition: The British game of ‘divide and rule’ URL
+India-Pakistan partition explained URL
+The 1947 Partition: Drawing the Indo-Pakistani Boundary URL
+The Two-Nation Reality versus Theory URL
+70 Years of the Radcliffe Line: Understanding the Story of Indian Partition URL
+How British's "Divide and Rule" destroyed India ? | UPSC URL
+DIVIDE & RULE URL
+India’s colonial history URL
+Dr Shashi Tharoor MP - Britain Does Owe Reparations URL
+An interpretation of the Lahore Resolution URL
+Jinnah – Gandhi Talks (1944) URL
+Round Table Conference URL
+Allama Iqbal - Two Nation Theory & Jinnah's Vision of Pakistan URL
+Geostrategic importance of Pakistan File
+Economic cooperation File
+Role of Pakistan as an Alternate Energy Route for China File
+Pakistan File
+geostrategic position File
+Geo- Strategic importance of Pakistan URL
+   The Strait of Hormuz Explained URL
+Strait of Malacca URL
+Geo-Strategic importance of Pakistan URL
+Geography Now! PAKISTAN URL
+Gwadar: A Game Changer for Pakistan | Detail of CPEC | Benefits for Pakistan | Imran Khan Exclusive URL
+   Strategic and economic importance of Gwadar port URL
+Governmental Structure of Pakistan URL
+GOVERNMENT STRUCTURE URL
+SYSTEM OF GOVERNANCE IN PAKISTAN: PARLIAMENTARY DEMOCRACY URL
+Pakistan’s angry political culture URL
+Intense polarization and Pakistan’s democratic future URL
+The social polarization and Pakistan’s present political turmoil URL
+Us VS Them: Increasing Social and Political Polarization in Pakistan URL
+Us VS Them: Increasing Social and Political Polarization in Pakistan URL
+Dynamics of ethnic conflicts in Pakistan URL
+Ethnicity File
+Presentation Report File
+Assignment Cover Page File
+What is National Action Plan/Its all 20 Contents Explained URL
+National Action Plan 2014 URL
+Pakistan-in-the-FATF-Grey-list File
+Pakistan removed from global ‘terrorism’ financing list URL
+APG-Mutual-Evaluation-Report-Pakistan-October 2019 File
+APG-2nd-Follow-Up-Report-Pakistan-2021 File
+Article-2-2-Oct-2018-ED-SSA File
+Pakistan Comes Closer to Exiting Terror Funding Monitor’s ‘Gray List’  URL
+Pakistan announces terrorism finance crackdown on banned militant group URL
+Global economic outlook and Pakistan URL
+Pakistan's Economic Crisis URL
+Failure of governance URL
+Pakistan won’t default URL
+IB-Ramsha Qamar Sept 6 2022 File
+Pakistan’s population problem URL
+Indian-funded terrorism in Balochistan URL
+What lies behind Pakistani charges of Indian 'terrorism' URL
+Indian Interference in Balochistan: Analysing the Evidence and Implications for Pakistan URL
+What the Kulbhushan Jadhav Saga Reveals About India and Pakistan’s Balochistan Problems URL
+CS100 Fundamentals of ICT BSCS 2k22 ABC
+Course text book----Introduction to computers File
+CS-100-ICT-Outline File
+Couse - Text Book File
+Week-1-IntroductionToComputers File
+Lab-01 - BSCS-12B-[Computer Hardware and Operating System] Assignment
+Lab 1 BSCS-12A File
+Lab 1 Submission Link BSCS-12A Assignment
+Lab 1 Submission Link BSCS-12B Assignment
+Lab-01 - BSCS-12C-[Computer Hardware and Operating System] Assignment
+Lab-02-BSCS-12B-[Microsoft Word Part-1] Assignment
+Lab 2 BSCS-12A File
+Week-2-LookingInsideTheComputer File
+Lab 2 Submission Link BSCS-12A Assignment
+Lab-02-BSCS-12C-[Microsoft Word Part-1] Assignment
+Week-3-IntroductionToProgramming File
+Lab 3 BSCS-12BFile
+Files for Lab 3 Folder
+Lab 3 Submission Link BSCS-12B Assignment
+Lab 3 BSCS-12A File
+Lab 3 Submission Link BSCS-12A Assignment
+Lab 3 BSCS-12C Assignment
+Week-3.1-DataTypes File
+Week-4.1-TypeCasting File
+ Week-4.2-Operators File
+Lab 4 BSCS-12B Assignment
+Lab 4 BSCS-12A File
+Lab 4 Submission Link BSCS-12A Assignment
+Lab-04-BSCS-12C Assignment
+Week-5.1-BitwiseOperator File
+Assignment-1
+Lab 5 BSCS-12A File
+Lab 5 BSCS-12B Assignment
+Lab 5 Submission Link BSCS-12A Assignment
+Week-5.2-PrecedenceOperator File
+Week-5.3-DecisionMaking File
+Lab 5 BSCS-12C Assignment
+Lab 6 BSCS-12B - [User Input and Arithmetics]  Assignment
+Lab 6 BSCS-12A File
+Decision Making File
+Lab 6 Submission Link BSCS-12A Assignment
+Lab 6 BSCS-12C - [User Input and Arithmetics]  Assignment
+Lab 7 BSCS-12B - [Decision Making using Condition Statements]  Assignment
+Lab 7 BSCS-12A File
+Lab 7 BSCS-12C - [Decision Making using Condition Statements]  Assignment
+Lab 7 Submission Link BSCS-12A Assignment
+Lab 8 BSCS-12 A File
+Lab 8 Submission Link BSCS-12A Assignment
+Lab 8 BSCS-12B - [While Loop]  Assignment
+Lab 8 BSCS-12C - [While Loop]  Assignment
+Assignment-2
+Lab 9 BSCS-12A File
+Lab 9 Submission Link BSCS-12A Assignment
+Lab 9 BSCS-12B Assignment
+Lab 10 BSCS-12A File
+Lab 10 Submission Link BSCS-12A Assignment
+Lab 9 BSCS-12C Assignment
+Lab Quiz 1-10 (BSCS-12A)
+Lab Quiz 1-10 (BSCS-12B)
+Lab 10 BSCS-12C - [Functions]  Assignment
+Strings-Resources File
+Assignment 3 File
+Submission Link - Section A Assignment
+Submission Link - Section B Assignment
+Submission Link - Section C Assignment
+Lab 10 BSCS-12B - [Functions]  Assignment
+Lab Quiz 1-10 (BSCS-12B)
+Lab 11 BSCS-12A File
+Lab 11 Submission Link BSCS-12A Assignment
+Lab 11 BSCS-12C - [Strings]  Assignment
+List File
+Lab Quiz 11-12 (BSCS-12A)
+Lab 11 BSCS-12B - [Strings] Assignment
+Lab 12 BSCS-12A File
+Lab 12 Submission Link BSCS-12A Assignment
+Lab 12 BSCS-12C - [Lists] Assignment
+Lab 12 BSCS-12B - [Lists] Assignment
+File Resources
+Lab 13 BSCS-12C - [Functions Part-2] Assignment
+Lab Quiz - [BSCS-12B]
+Lab 13 BSCS-12A File
+Lab 13 BSCS-12B - [Series and Data Frame] Assignment
+Project_Submission_Section_A Assignment
+Project_Submission_Section_B Assignment
+Project_Submission_Section_C Assignment
+Lab Quiz - BSCS-12A
+Lab 13 Submission Link BSCS-12A Assignment
+Series File
+Data Frame File
+CS110 Fundamentals of Computer Programming BSCS 2k22 AB
+Course Outline File
+Textbook File
+Lab 1 File
+Lab 1 Submission A Assignment
+Lab 1 Submission B Assignment
+Lecture 1 - Introduction File
+Lab1 Practice  File
+Lab 1 Submission section A Assignment
+Lab 1 Submission section B Assignment
+Lab 2 File
+Lab 2 Submission A Assignment
+Lab 2 Submission B Assignment
+Floating point numbers - A Tutorial File
+Lab 3 File
+Lab 3 Submission A Assignment
+Lab 3 Submission B Assignment
+Lab 4 File
+Lab 4 Submission A Assignment
+Lab 4 Submission B Assignment
+Assignment 1
+Lab 5 File
+Lab 5 submission A Assignment
+Lab 5 Submission B  Assignment
+Lab 6 File
+Lab 6 Submission A Assignment
+Lab 6 Submission B  Assignment
+Lab 7 File
+Lab 7 submission A Assignment
+Lab 7 submission B Assignment
+Assignment 2 Submission
+Lab 8 File
+Lab 8 Submission A Assignment
+Lab 8 Submission B Assignment
+Lab 9 File
+Lab 9 Submission A  Assignment
+Lab 9 Submission B  Assignment
+Lab 10 File
+Lab 10 Submission A Assignment
+Lab 10 Submission B Assignment
+Assignment 3
+Lab 11 File
+Lab 11 Submission A Assignment
+Lab 11 Submission B  Assignment
+LABQUIZ  B
+Lab 12 Quiz A
+Lab 12 Quiz B
+Lab 12 File
+Lab 12 submission A Assignment
+Lab 12 submission B Assignment
+MATH161 Discrete Mathematics BSCS 2k22 AB
+Lecture 1 File
+Lecture 2 File
+Lecture 3 File
+Lecture 3 (Sec A) File
+Discrete Mathematics Textbook File
+Discrete Mathematics Reference Book File
+Lecture 4(Sec A) File
+Lecture 4(Sec B) File
+Lecture 5(Sec B) File
+Lecture 5(Sec A) File
+Lecture 6(Sec B) File
+Lecture 6(Sec A) File
+Lecture 7(Sec A) File
+Lecture 7(Sec B) File
+Assignment 1 File
+Lecture 8(Sec B) File
+Lecture 8(Sec A) File
+Lecture 9(Sec A,B) File
+Lecture 10 File
+Lecture 11(Sec B) File
+Lecture 11(Sec A) File
+Lecture 12 (Sec B) File
+Lecture 12(Sec A) File
+Lecture 13(Sec A) File
+Lecture 13(Sec B) File
+Lecture 14(Sec B) File
+Lecture 14(Sec A) File
+Lecture 15 (Sec A,B) File
+Lecture 16 File
+Lecture 17(Sec B) File
+Lecture 17(Sec A) File
+Lecture 18 File
+Assignment 2 File
+Lecture 19(Sec A) File
+Lecture 19(Sec B) File
+Lecture 20(Sec B) File
+Lecture 20(Sec A) File
+Lecture 21(Sec A) File
+Lecture 21(Sec B) File
+Lecture 22(Sec A) File
+Lecture 22(SecB) File
+Lecture 23(Sec B) File
+Lecture 23(Sec A) File
+Lecture 24(Sec A, B) File
+Lecture 25(Sec B) File
+Lecture 25(Sec A) File
+Lecture 26(Sec A) File
+Lecture 26(Sec B) File
+Lecture 27(Sec B) File
+Lecture 27(Sec A) File
+Lecture 28(Sec B) File
+Lecture 28(Sec A) File
+Lecture 29 File
+Lecture 30 File
+Lecture 31(Sec B) File
+Lecture 31(Sec A) File
+Lecture 32(Sec A) File
+Lecture 32(Sec B) File
+Lecture 33(Sec B) File
+Lecture 33(Sec A) File
+Lecture 34(Sec A) File
+Lecture 34(Sec B) File
+Lecture 35(Sec A) File
+Lecture 35(Sec B) File
+Lecture 36(Sec B) File
+Lecture 36(Sec A) File
+Lecture 37(Sec B) File
+Lecture 37(Sec A) File
+Assignment 3 File
+Lecture 38(Sec A) File
+Lecture 38(Sec B) File
+Lecture 39(Sec B) File
+Lecture 39(Sec A) File
+Lecture 40(Sec B) File
+Lecture 40(Sec A) File
+Lecture 41(Sec A) File
+Lecture 41(Sec B) File
+Lecture 42(Sec B) File
+Lecture 42(Sec A) File
+HU108 Communication and Interpersonal Skills BSCS 2k22 AB
+Course Outline File
+Communication Process File
+Listening Skills File
+7C's of Communication File
+Verbal & Non-Verbal Communication File
+Forms of Verbal Expression File
+Assignment-I
+Reading Skills File
+Communication at Workplace  File
+Emotional Intelligence  File
+Social Media & Email File
+Cross Cultural Communication File
+Persuasive message File
+Public Speaking File
+Power Point Presentation File
+MATH111 Calculus-I BSCS 2k22 ABC
+Course Outline (Calculus-I-MATH-111) File
+1. Introduction File
+2. Functions File
+Book-Advanced engineering mathematics (10th edition) File
+Book-Calculus and Analytic Geometry (9th edition) File
+Book-Thomas Calculus (11th edition) File
+3. Inverse of a Function File
+4. Identifying Functions File
+5. Graphing Techniques of Functions File
+6. Limit of a function File
+7. One-sided limits and limits at infinity File
+8. Asymptotes File
+9. Continuity File
+10. Tangents and Derivatives File
+11- Derivative as a function File
+12. Differentiation Rules File
+Quiz 1-Solution File
+13. Derivatives of Trigonometric Functions File
+14. Chain Rule File
+15. Implicit Differenciation File
+16. Rate of Change File
+Assignment 1 File
+17. Related Rate File
+Quiz 2-Solution File
+18. Linearization and Differentials File
+19. Extreme values of Functions File
+20. Mean Value Theorem File
+21. Monotonicity and Concavity File
+22. Indeterminate Forms and LHopitals Rule File
+23. Curve Sketching File
+24. Optimization Problem File
+25. Antiderivatives File
+26. Finite Sums File
+27. Definite Integral File
+28. Fundamental Theorem of Calculus File
+29. Indefinite Integrals and Substitution Rule File
+30. Area between the curves File
+Assignment 2 File
+31. Volumes of Solids-Slicing Method File
+32. Volume of Solid of Revolution File
+33. Volume by Cylindrical Shell Method File
+34. Length of Plane Curves File
+35. Area of Surface of Revolution File
+36. Hyperbolic Functions File

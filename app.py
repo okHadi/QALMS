@@ -4,6 +4,7 @@ from txtData.courseteacherinfo import teacherinfo
 from txtData.timetable import extactTimeTable
 from txtData.attd_data import extractAttd
 from txtData.assignments import assignmentData
+from txtData.studentinfo import studentInfo
 from flask import Flask, render_template, request, redirect, url_for, session    #render_template() looks for a template (HTML file) in the templates folder.
 app = Flask(__name__)   #creates a flask object that will be run
 
@@ -40,10 +41,11 @@ def home():
         attdData = extractAttd()
         timetabledata = extactTimeTable()
         teacherInfo = teacherinfo()
+        studentData = studentInfo()
         attdData['length'] = len(attdData['Course'])
         timetabledata['length'] = len(timetabledata['Course'])
         assignment = assignmentData()
-        return render_template("home.html",attdData=attdData, timetable=timetabledata, teacherInfo=teacherInfo, assignment = assignment)
+        return render_template("home.html",attdData=attdData, timetable=timetabledata, studentData=studentData, teacherInfo=teacherInfo, assignment = assignment)
 
 @app.route('/about', methods=['GET'])
 def about():

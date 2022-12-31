@@ -5,6 +5,7 @@ from chromedriver.chromedriver import *
 import requests
 import re
 from bs4 import BeautifulSoup
+import pandas as pd
 def qalamLogin(username, password):
     session=requests.Session()
     chrome_options = webdriver.chrome.options.Options()
@@ -61,6 +62,43 @@ def qalamLogin(username, password):
                 linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
                 all_links.append(linkT)
         # Open a new file in write mode
+            #Get student's name and CMS ID
+        with open('txtData/studentinfo.txt','w') as f:
+            info = dashsoup.find_all('h2',class_='heading_b')
+            for text in info:
+                f.write(text.get_text()+'\n')
+        f.close()
+        #RESULTS DATA:
+        coursesearch=dashsoup.find_all('span',class_='md-list-heading md-color-grey-900')
+        coursenames=[]
+        for name in coursesearch:
+            coursenames.append(name.text)
+        anchors=dashsoup.find_all('a',href=re.compile(r'results/id/'))
+        all_links=[]
+        for link in anchors:
+            if(link.get('href') != '#'):
+                linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
+                all_links.append(linkT)
+        # Open a new file in write mode
+
+        with open('txtData/messinvoice.txt', 'w') as f:
+            messinv = session.get("https://qalam.nust.edu.pk/student/messinvoices",cookies=auth_keys)
+            messsoup = BeautifulSoup(messinv.text, 'html.parser')
+            messtable = messsoup.find('table')
+            if messtable != 'None':
+                messrows =  messtable.find_all('tr')
+            messheaders = messtable.find_all('th')
+            messcells = messrows[-1].find_all('td')
+            for j,header in enumerate(messheaders):
+                if j!=9:
+                    f.write(header.get_text() + '\t')
+            print('\n')
+            for k,cell in enumerate(messcells):
+                if k!=9:
+                    f.write(cell.get_text() + '\t')
+        f.close()
+
+
         with open('txtData/results.txt', 'w') as f:
             i=0
             for link in all_links:
@@ -74,27 +112,12 @@ def qalamLogin(username, password):
                 data=[] #Array to store all the data
                 #Find all the rows in the table
                 if table!='None':
-                    rows = table.find_all('tr')
-                header_data=[]
-                cell_data=[]
-                #Print the contents of each cell of every row
-                for row in rows:
-                    headers=row.find_all('th')
-                    cells=row.find_all('td')
-                    #header_data = [header.get_text() for header in headers]
-                    #cell_data = [cell.get_text() for cell in cells]        
-                    for header in headers:
-                        header_data.append(header.get_text())
-                    for cell in cells:
-                        cell_data.append(cell.get_text()) 
-                data.append(header_data)
-                data.append(cell_data)
-                
-                f.write(coursenames[i] + '\n')
-                for row in data:
-                    for element in row:
-                        f.write(element + "\t")
-                f.write("\n")
+                    f.write(coursenames[i] + '\n')
+                    df = pd.read_html(str(table))[0]
+                    mask = df['Obtained Percentage'].notnull()
+                    df = df[mask]
+                    f.write(df.to_string())
+                    f.write('\n')
                     
                 i+=1
 

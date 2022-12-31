@@ -74,6 +74,39 @@ def lmsLogin(luser, lpass):
                                 file2.write(assignment.get_text() + '\n')
         f.close()
         file2.close()
+        LMSsession.close()
+        with open('txtData/contentdata.txt', 'w') as file2:
+            with open('txtData/courseteacherinfo.txt', 'w') as f:
+                for link in course_links:
+                    lms = LMSsession.get(link,cookies=auth_keysLMS)
+                    coursesoup=BeautifulSoup(lms.text,'html.parser')
+                    coursetitle=coursesoup.find_all(class_="page-header-headings")
+                    coursetitlelist=[]
+                    for title in coursetitle:
+                        coursetitlelist.append(title)
+                        f.write(title.get_text() + "\n")
+                        searchprof=coursesoup.find_all('div',class_='col-md-12 align-self-center')
+                        for prof in searchprof:
+                            teacherprof=prof.find_all('a',href=re.compile(r'portal/user/profile'))
+                            teacherprofs=[]
+                            for prof in teacherprof:
+                                teacherprofs.append(prof.get_text())
+                                f.write(prof.get_text()+"\n")
+                                emailsearch=LMSsession.get(prof.get('href'),cookies=auth_keysLMS)
+                                emailsoup=BeautifulSoup(emailsearch.text,'html.parser')
+                                emails = emailsoup.find_all('a', href=re.compile(r'mailto:'), text=lambda t: t.text!='lms@seecs.edu.pk')
+                                emaillist=[]
+                                for email in emails:
+                                    emaillist.append(email)
+                                    f.write(email.get_text() + "\n")
+                    contentsearch = coursesoup.find_all('span',class_='instancename')
+                    for course in coursetitlelist:
+                        file2.write(course.get_text() + '\n')
+                        for content in contentsearch:
+                            if content.text.find('Announcements') == -1:
+                                file2.write(content.get_text() + '\n')
+        f.close()
+        file2.close()
 
         LMSsession.close()
         driver.close()
