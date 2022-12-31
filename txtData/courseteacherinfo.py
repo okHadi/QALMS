@@ -14,7 +14,15 @@ def teacherinfo():
     for line in data:
         # Check if the line is the course name
         if "2k22" in line:
-            course_name = line.strip()
+            # Split the line into words
+            words = line.split()
+            # Find the index of the "2k22" string
+            index = words.index("2k22")
+            # Extract the course name from the words before the "2k22" string
+            course_name = " ".join(words[:index])
+            if course_name.endswith("BSCS"):
+                # If it does, remove "BSCS" from the course name
+                course_name = course_name[:-4].strip()
         # Check if the line is the instructor name
         elif " " in line:
             instructor_name = line.strip()

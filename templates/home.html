@@ -136,7 +136,7 @@
     <header class="header">
       <h1 class="logo"><a href="/">QALMS</a></h1>
       <ul class="main-nav">
-        <li><a href="/">Home</a></li>
+        <li><a href="/about">About us</a></li>
         <li><a href="/login">Login</a></li>
       </ul>
     </header>
@@ -202,6 +202,22 @@
             </tr>
             {% endfor %}
           </tbody>
+        </table>
+        <h2>Assignments uploaded:</h2>
+        <table id="table">
+          <tr>
+            <th>Course</th>
+            <th>Assignments</th>
+          </tr>
+          {% for course, assignments in assignment.items() %}
+          <tr>
+            <td>{{ course }}</td>
+            <td>
+              {% for assignment in assignments %} {{ assignment }}<br />
+              {% endfor %}
+            </td>
+          </tr>
+          {% endfor %}
         </table>
       </div>
     </div>

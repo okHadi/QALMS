@@ -49,7 +49,11 @@ def qalamLogin(username, password):
     
 
     
-    #RESULTS DATA:
+        #RESULTS DATA:
+        coursesearch=dashsoup.find_all('span',class_='md-list-heading md-color-grey-900')
+        coursenames=[]
+        for name in coursesearch:
+            coursenames.append(name.text)
         anchors=dashsoup.find_all('a',href=re.compile(r'results/id/'))
         all_links=[]
         for link in anchors:
@@ -58,9 +62,10 @@ def qalamLogin(username, password):
                 all_links.append(linkT)
         # Open a new file in write mode
         with open('txtData/results.txt', 'w') as f:
+            i=0
             for link in all_links:
 
-            # Send an HTTP request to the URL of the current link
+                # Send an HTTP request to the URL of the current link
                 response2 = session.get(link,cookies=auth_keys)
                 # Parse the response using Beautiful Soup
                 soup = BeautifulSoup(response2.text, 'html.parser')
@@ -80,27 +85,19 @@ def qalamLogin(username, password):
                     #cell_data = [cell.get_text() for cell in cells]        
                     for header in headers:
                         header_data.append(header.get_text())
-                        f.write(header.get_text()+"\n")
                     for cell in cells:
                         cell_data.append(cell.get_text()) 
-                        f.write(cell.get_text()+"\n")
                 data.append(header_data)
                 data.append(cell_data)
-            
-        # Iterate over the elements of the list
-            for row in data:
-                for element in row:
-                    f.write(element + "\t")
+                
+                f.write(coursenames[i] + '\n')
+                for row in data:
+                    for element in row:
+                        f.write(element + "\t")
                 f.write("\n")
-        
-            # Iterate over the elements of the list
-                # for row in data:
-                #     for element in row:
-                #         f.write(element + "\t")
-                #     f.write("\n")
+                    
+                i+=1
 
-            # print(soup.get_text())
-        f.close()    
         #ATTENDANCE DATA:
         html2=session.get("https://qalam.nust.edu.pk/student/attendance",cookies=auth_keys)
         attendancesoup=BeautifulSoup(html2.text, 'html.parser')
