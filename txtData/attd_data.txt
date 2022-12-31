@@ -1,14 +1,154 @@
 
 Course :
-Fundamentals of ICT
+English
 
 
 Course Code :
-CS-100-F22-SEECS/BSCS/2022F-B-lecture
+HU-100-F22-SMME/BME/2022-A-lecture
 
 
 Number of classes Conducted :
-31
+27
+
+
+Number of classes Attended :
+25
+
+
+Attendance Percentage:
+92.59
+
+
+Course :
+Calculus & Analytical Geometry
+
+
+Course Code :
+MATH-101-F22-SMME/BME/2022-A-lecture
+
+
+Number of classes Conducted :
+45
+
+
+Number of classes Attended :
+39
+
+
+Attendance Percentage:
+86.36
+
+
+Course :
+Pakistan Studies
+
+
+Course Code :
+HU-107-F22-SMME/BME/2022-A-lecture
+
+
+Number of classes Conducted :
+28
+
+
+Number of classes Attended :
+26
+
+
+Attendance Percentage:
+92.86
+
+
+Course :
+Applied Chemistry
+
+
+Course Code :
+CH-109-F22-SMME/BME/2022-A-lecture
+
+
+Number of classes Conducted :
+30
+
+
+Number of classes Attended :
+24
+
+
+Attendance Percentage:
+80.0
+
+
+Course :
+Applied Physics
+
+
+Course Code :
+PHY-102-F22-SMME/BME/2022-A-lecture
+
+
+Number of classes Conducted :
+30
+
+
+Number of classes Attended :
+25
+
+
+Attendance Percentage:
+83.33
+
+
+Course :
+Applied Physics
+
+
+Course Code :
+PHY-102-F22-SMME/BME/2022-A-lab
+
+
+Number of classes Conducted :
+14
+
+
+Number of classes Attended :
+14
+
+
+Attendance Percentage:
+100.0
+
+
+Course :
+Fundamentals of Programming
+
+
+Course Code :
+CS-114-F22-SMME/BME/2022-A-lab
+
+
+Number of classes Conducted :
+14
+
+
+Number of classes Attended :
+13
+
+
+Attendance Percentage:
+92.86
+
+
+Course :
+Fundamentals of Programming
+
+
+Course Code :
+CS-114-F22-SMME/BME/2022-A-lecture
+
+
+Number of classes Conducted :
+30
 
 
 Number of classes Attended :
@@ -16,15 +156,15 @@ Number of classes Attended :
 
 
 Attendance Percentage:
-96.77
+100.0
 
 
 Course :
-Fundamentals of ICT
+Workshop Practice
 
 
 Course Code :
-CS-100-F22-SEECS/BSCS/2022F-B-lab
+ME-105-F22-SMME/BME/2022-A-lab
 
 
 Number of classes Conducted :
@@ -37,124 +177,4 @@ Number of classes Attended :
 
 Attendance Percentage:
 100.0
-
-
-Course :
-Fundamentals of Computer Programming
-
-
-Course Code :
-CS-110-F22-SEECS/BSCS/2022F-B-lecture
-
-
-Number of classes Conducted :
-47
-
-
-Number of classes Attended :
-44
-
-
-Attendance Percentage:
-93.33
-
-
-Course :
-Fundamentals of Computer Programming
-
-
-Course Code :
-CS-110-F22-SEECS/BSCS/2022F-B-lab
-
-
-Number of classes Conducted :
-11
-
-
-Number of classes Attended :
-10
-
-
-Attendance Percentage:
-90.91
-
-
-Course :
-Calculus-I
-
-
-Course Code :
-MATH-111-F22-SEECS/BSCS/2022F-B-lecture
-
-
-Number of classes Conducted :
-47
-
-
-Number of classes Attended :
-40
-
-
-Attendance Percentage:
-84.44
-
-
-Course :
-Discrete Mathematics
-
-
-Course Code :
-MATH-161-F22-SEECS/BSCS/2022F-B-lecture
-
-
-Number of classes Conducted :
-45
-
-
-Number of classes Attended :
-39
-
-
-Attendance Percentage:
-88.64
-
-
-Course :
-Pakistan Studies
-
-
-Course Code :
-HU-107-F22-SEECS/BSCS/2022F-B-lecture
-
-
-Number of classes Conducted :
-31
-
-
-Number of classes Attended :
-27
-
-
-Attendance Percentage:
-93.1
-
-
-Course :
-Communication and Interpersonal Skills
-
-
-Course Code :
-HU-108-F22-SEECS/BSCS/2022F-B-lecture
-
-
-Number of classes Conducted :
-41
-
-
-Number of classes Attended :
-39
-
-
-Attendance Percentage:
-95.12
 

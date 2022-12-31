@@ -38,5 +38,4 @@ def extractAttd():
             courses[i+1] = el + " Lab"
             counts[el] -= 1
     my_dict['Course'] = courses
-    print(my_dict)
     return my_dict
