@@ -2,35 +2,29 @@ Mandatory Documents Upload
 Bachelors of Computer Science 2022 Intake Assignment
 Bachelors of Software Engineering 2022 Intake Assignment
 Bachelors of Electrical Engineering 2022 Intake Assignment
-OHS101 Occupational Health and Safety BESE 2k22 AB
-Home Assignment 1
-Assignment-2 Submission
-Semester Project Proposal Submission Assignment
-Semester Project Final Report and Video Assignment
-HU107 Pakistan Studies BESE 2k22 AB
+HU107 Pakistan Studies BSCS 2k22 ABC
 Assignment #1 File
 Assignment Cover Page File
-CS114 Fundamentals of Programming BESE 2k22 AB
-Assignment 1 - Flowcharts and Pseudocode File
-Assignment 1 Submission Link
-Monday's Lecture - Arithmetic and Assignment Operators File
-Assignment 2 - Mathematical Calculator File
-Assignment 2 - Updated Tasks File
-Assignment 2 Submission Link
-Assignment 3 - Functions File
-Assignment 3 Submission Link
-Group Project Submission Link - Section A Assignment
-Group Project Submission Link - Section B Assignment
-HU100 English BESE 2k22 AB
-MATH161 Discrete Mathematics  BESE 2k22 AB
-Assignment 1 File
-Assignment-2 File
+CS100 Fundamentals of ICT BSCS 2k22 ABC
+Assignment-1
+Assignment-2
 Assignment 3 File
-MATH101 Calculas and Analytical Geometry BESE 2k22 AB
+Submission Link - Section A Assignment
+Submission Link - Section B Assignment
+Submission Link - Section C Assignment
+Project_Submission_Section_A Assignment
+Project_Submission_Section_B Assignment
+Project_Submission_Section_C Assignment
+CS110 Fundamentals of Computer Programming BSCS 2k22 AB
+Assignment 1
+Assignment 2 Submission
+Assignment 3
+MATH161 Discrete Mathematics BSCS 2k22 AB
 Assignment 1 File
-Assignment 2(SE-13AB) File
-Assignment 3(Fall 22 A) File
-Assignment 3(Fall 22 B) File
-PHY102 Applied Physics BESE 2k22 AB
+Assignment 2 File
+Assignment 3 File
+HU108 Communication and Interpersonal Skills BSCS 2k22 AB
+Assignment-I
+MATH111 Calculus-I BSCS 2k22 ABC
 Assignment 1 File
 Assignment 2 File
