@@ -1,38 +1,38 @@
 
 Course :
-Fundamentals of ICT
+Applied Physics
 
 
 Course Code :
-CS-100-F22-SEECS/BSCS/2022F-B-lecture
+PHY-102-F22-SEECS/BSE/2022F-B-lecture
 
 
 Number of classes Conducted :
-31
-
-
-Number of classes Attended :
 30
 
 
+Number of classes Attended :
+25
+
+
 Attendance Percentage:
-96.77
+83.33
 
 
 Course :
-Fundamentals of ICT
+Applied Physics
 
 
 Course Code :
-CS-100-F22-SEECS/BSCS/2022F-B-lab
+PHY-102-F22-SEECS/BSE/2022F-B-lab
 
 
 Number of classes Conducted :
-15
+13
 
 
 Number of classes Attended :
-15
+13
 
 
 Attendance Percentage:
@@ -40,75 +40,15 @@ Attendance Percentage:
 
 
 Course :
-Fundamentals of Computer Programming
-
-
-Course Code :
-CS-110-F22-SEECS/BSCS/2022F-B-lecture
-
-
-Number of classes Conducted :
-47
-
-
-Number of classes Attended :
-44
-
-
-Attendance Percentage:
-93.33
-
-
-Course :
-Fundamentals of Computer Programming
-
-
-Course Code :
-CS-110-F22-SEECS/BSCS/2022F-B-lab
-
-
-Number of classes Conducted :
-11
-
-
-Number of classes Attended :
-10
-
-
-Attendance Percentage:
-90.91
-
-
-Course :
-Calculus-I
-
-
-Course Code :
-MATH-111-F22-SEECS/BSCS/2022F-B-lecture
-
-
-Number of classes Conducted :
-47
-
-
-Number of classes Attended :
-40
-
-
-Attendance Percentage:
-84.44
-
-
-Course :
 Discrete Mathematics
 
 
 Course Code :
-MATH-161-F22-SEECS/BSCS/2022F-B-lecture
+MATH-161-F22-SEECS/BSE/2022F-B-lecture
 
 
 Number of classes Conducted :
-45
+44
 
 
 Number of classes Attended :
@@ -116,7 +56,87 @@ Number of classes Attended :
 
 
 Attendance Percentage:
-88.64
+90.7
+
+
+Course :
+Fundamentals of Programming
+
+
+Course Code :
+CS-114-F22-SEECS/BSE/2022F-B-lecture
+
+
+Number of classes Conducted :
+30
+
+
+Number of classes Attended :
+28
+
+
+Attendance Percentage:
+96.55
+
+
+Course :
+Fundamentals of Programming
+
+
+Course Code :
+CS-114-F22-SEECS/BSE/2022F-B-lab
+
+
+Number of classes Conducted :
+12
+
+
+Number of classes Attended :
+12
+
+
+Attendance Percentage:
+100.0
+
+
+Course :
+Calculus & Analytical Geometry
+
+
+Course Code :
+MATH-101-F22-SEECS/BSE/2022F-B-lecture
+
+
+Number of classes Conducted :
+44
+
+
+Number of classes Attended :
+39
+
+
+Attendance Percentage:
+92.5
+
+
+Course :
+English
+
+
+Course Code :
+HU-100-F22-SEECS/BSE/2022F-B-lecture
+
+
+Number of classes Conducted :
+30
+
+
+Number of classes Attended :
+24
+
+
+Attendance Percentage:
+85.71
 
 
 Course :
@@ -124,11 +144,11 @@ Pakistan Studies
 
 
 Course Code :
-HU-107-F22-SEECS/BSCS/2022F-B-lecture
+HU-107-F22-SEECS/BSE/2022F-B-lecture
 
 
 Number of classes Conducted :
-31
+32
 
 
 Number of classes Attended :
@@ -136,25 +156,25 @@ Number of classes Attended :
 
 
 Attendance Percentage:
-93.1
+84.38
 
 
 Course :
-Communication and Interpersonal Skills
+Occupational Health and Safety
 
 
 Course Code :
-HU-108-F22-SEECS/BSCS/2022F-B-lecture
+OHS-101-F22-SEECS/BSE/2022F-B-lecture
 
 
 Number of classes Conducted :
-41
+13
 
 
 Number of classes Attended :
-39
+13
 
 
 Attendance Percentage:
-95.12
+100.0
 

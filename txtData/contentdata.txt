@@ -2,7 +2,32 @@ Mandatory Documents Upload
 Bachelors of Computer Science 2022 Intake Assignment
 Bachelors of Software Engineering 2022 Intake Assignment
 Bachelors of Electrical Engineering 2022 Intake Assignment
-HU107 Pakistan Studies BSCS 2k22 ABC
+OHS101 Occupational Health and Safety BESE 2k22 AB
+OHS-101 Course Outline File
+a-z health File
+Introduction to Health and Safety at Work  for the NEBOSH National General Certificate in Occupational Health and Safety ( PDFDrive ) File
+OHS-Lec1 File
+Foundations in Health  Safety File
+Home Assignment 1
+OSHA2001 File
+OHSMS Lec-1-3 File
+BESE 2k22 AB OHS Home Assgn 2 File
+Draft-National-OHS-Policy of Pakistan File
+OGDCLIntegratedHSESystemManualJuly2021 File
+TW HS MWF 005 Health and Safety Management System Manual V1.0 11599979 File
+Assignment-2 Submission
+BESE 2k22 AB OHS-101 Quiz 2 Sol File
+HSWA 1974 File
+Hazard  Risks-1 File
+Semester Project Proposal Submission Assignment
+Health  Safety Checklist File
+OSHA2001 File
+Health and Safety in the Workplace  Risk Assessment File
+Health  Safety in Workplace (Electricity  Computers and Fire  Fire Extinguishers) File
+Orientation Session for FYP File
+FYP Guidelines 02 11 2017 v1.4 File
+Semester Project Final Report and Video Assignment
+HU107 Pakistan Studies BESE 2k22 AB
 Pakistan Studies 2+0 File
 Assignment #1 File
 India’s partition mapped out by blunders and blood URL
@@ -27,19 +52,19 @@ Role of Pakistan as an Alternate Energy Route for China File
 Pakistan File
 geostrategic position File
 Geo- Strategic importance of Pakistan URL
-   The Strait of Hormuz Explained URL
+  The Strait of Hormuz Explained URL
 Strait of Malacca URL
 Geo-Strategic importance of Pakistan URL
 Geography Now! PAKISTAN URL
 Gwadar: A Game Changer for Pakistan | Detail of CPEC | Benefits for Pakistan | Imran Khan Exclusive URL
-   Strategic and economic importance of Gwadar port URL
+  Strategic and economic importance of Gwadar port URL
 Governmental Structure of Pakistan URL
 GOVERNMENT STRUCTURE URL
 SYSTEM OF GOVERNANCE IN PAKISTAN: PARLIAMENTARY DEMOCRACY URL
 Pakistan’s angry political culture URL
 Intense polarization and Pakistan’s democratic future URL
 The social polarization and Pakistan’s present political turmoil URL
-Us VS Them: Increasing Social and Political Polarization in Pakistan URL
+The social polarization and Pakistan’s present political turmoil URL
 Us VS Them: Increasing Social and Political Polarization in Pakistan URL
 Dynamics of ethnic conflicts in Pakistan URL
 Ethnicity File
@@ -64,285 +89,245 @@ Indian-funded terrorism in Balochistan URL
 What lies behind Pakistani charges of Indian 'terrorism' URL
 Indian Interference in Balochistan: Analysing the Evidence and Implications for Pakistan URL
 What the Kulbhushan Jadhav Saga Reveals About India and Pakistan’s Balochistan Problems URL
-CS100 Fundamentals of ICT BSCS 2k22 ABC
-Course text book----Introduction to computers File
-CS-100-ICT-Outline File
-Couse - Text Book File
-Week-1-IntroductionToComputers File
-Lab-01 - BSCS-12B-[Computer Hardware and Operating System] Assignment
-Lab 1 BSCS-12A File
-Lab 1 Submission Link BSCS-12A Assignment
-Lab 1 Submission Link BSCS-12B Assignment
-Lab-01 - BSCS-12C-[Computer Hardware and Operating System] Assignment
-Lab-02-BSCS-12B-[Microsoft Word Part-1] Assignment
-Lab 2 BSCS-12A File
-Week-2-LookingInsideTheComputer File
-Lab 2 Submission Link BSCS-12A Assignment
-Lab-02-BSCS-12C-[Microsoft Word Part-1] Assignment
-Week-3-IntroductionToProgramming File
-Lab 3 BSCS-12BFile
-Files for Lab 3 Folder
-Lab 3 Submission Link BSCS-12B Assignment
-Lab 3 BSCS-12A File
-Lab 3 Submission Link BSCS-12A Assignment
-Lab 3 BSCS-12C Assignment
-Week-3.1-DataTypes File
-Week-4.1-TypeCasting File
- Week-4.2-Operators File
-Lab 4 BSCS-12B Assignment
-Lab 4 BSCS-12A File
-Lab 4 Submission Link BSCS-12A Assignment
-Lab-04-BSCS-12C Assignment
-Week-5.1-BitwiseOperator File
-Assignment-1
-Lab 5 BSCS-12A File
-Lab 5 BSCS-12B Assignment
-Lab 5 Submission Link BSCS-12A Assignment
-Week-5.2-PrecedenceOperator File
-Week-5.3-DecisionMaking File
-Lab 5 BSCS-12C Assignment
-Lab 6 BSCS-12B - [User Input and Arithmetics]  Assignment
-Lab 6 BSCS-12A File
-Decision Making File
-Lab 6 Submission Link BSCS-12A Assignment
-Lab 6 BSCS-12C - [User Input and Arithmetics]  Assignment
-Lab 7 BSCS-12B - [Decision Making using Condition Statements]  Assignment
-Lab 7 BSCS-12A File
-Lab 7 BSCS-12C - [Decision Making using Condition Statements]  Assignment
-Lab 7 Submission Link BSCS-12A Assignment
-Lab 8 BSCS-12 A File
-Lab 8 Submission Link BSCS-12A Assignment
-Lab 8 BSCS-12B - [While Loop]  Assignment
-Lab 8 BSCS-12C - [While Loop]  Assignment
-Assignment-2
-Lab 9 BSCS-12A File
-Lab 9 Submission Link BSCS-12A Assignment
-Lab 9 BSCS-12B Assignment
-Lab 10 BSCS-12A File
-Lab 10 Submission Link BSCS-12A Assignment
-Lab 9 BSCS-12C Assignment
-Lab Quiz 1-10 (BSCS-12A)
-Lab Quiz 1-10 (BSCS-12B)
-Lab 10 BSCS-12C - [Functions]  Assignment
-Strings-Resources File
-Assignment 3 File
-Submission Link - Section A Assignment
-Submission Link - Section B Assignment
-Submission Link - Section C Assignment
-Lab 10 BSCS-12B - [Functions]  Assignment
-Lab Quiz 1-10 (BSCS-12B)
-Lab 11 BSCS-12A File
-Lab 11 Submission Link BSCS-12A Assignment
-Lab 11 BSCS-12C - [Strings]  Assignment
-List File
-Lab Quiz 11-12 (BSCS-12A)
-Lab 11 BSCS-12B - [Strings] Assignment
-Lab 12 BSCS-12A File
-Lab 12 Submission Link BSCS-12A Assignment
-Lab 12 BSCS-12C - [Lists] Assignment
-Lab 12 BSCS-12B - [Lists] Assignment
-File Resources
-Lab 13 BSCS-12C - [Functions Part-2] Assignment
-Lab Quiz - [BSCS-12B]
-Lab 13 BSCS-12A File
-Lab 13 BSCS-12B - [Series and Data Frame] Assignment
-Project_Submission_Section_A Assignment
-Project_Submission_Section_B Assignment
-Project_Submission_Section_C Assignment
-Lab Quiz - BSCS-12A
-Lab 13 Submission Link BSCS-12A Assignment
-Series File
-Data Frame File
-CS110 Fundamentals of Computer Programming BSCS 2k22 AB
-Course Outline File
+CS114 Fundamentals of Programming BESE 2k22 AB
+Course Outline Document File
 Textbook File
 Lab 1 File
 Lab 1 Submission A Assignment
 Lab 1 Submission B Assignment
-Lecture 1 - Introduction File
-Lab1 Practice  File
-Lab 1 Submission section A Assignment
-Lab 1 Submission section B Assignment
+Monday's Lecture - Introduction to Course File
+Thursday's Lecture - Algorithms, Flowcharts and Pseudocode File
 Lab 2 File
 Lab 2 Submission A Assignment
 Lab 2 Submission B Assignment
-Floating point numbers - A Tutorial File
+Monday's Lecture - Flowchart and Pseudocode Exercises and Introduction to C File
+Thursday's Lecture - Introduction to C File
+Assignment 1 - Flowcharts and Pseudocode File
 Lab 3 File
-Lab 3 Submission A Assignment
+Lab 3 Submission  A Assignment
 Lab 3 Submission B Assignment
+Monday's Lecture - Variables and Quiz 1 File
+Thursday's Lecture - Initialization and Input File
+Assignment 1 Submission Link
 Lab 4 File
 Lab 4 Submission A Assignment
 Lab 4 Submission B Assignment
-Assignment 1
+Monday's Lecture - Identifiers, Keywords and Layout File
+Thursday's Lecture - Conversion Specifications, Escape Sequences and scanf File
 Lab 5 File
-Lab 5 submission A Assignment
-Lab 5 Submission B  Assignment
+Lab 5 Submission A Assignment
+Lab 5 Submission B Assignment
+Monday's Lecture - Arithmetic and Assignment Operators File
+Thursday's Lecture - Operators File
 Lab 6 File
-Lab 6 Submission A Assignment
-Lab 6 Submission B  Assignment
+Lab 6 Submission A  Assignment
+Lab 6 Submission B Assignment
+Monday's Lecture - Conditional Statements File
+Thursday's Lecture - Switch Statement File
+Assignment 2 - Mathematical Calculator File
 Lab 7 File
-Lab 7 submission A Assignment
+Lab 7 Submission A Assignment
 Lab 7 submission B Assignment
-Assignment 2 Submission
+Monday's Lecture - While Statement File
+Assignment 2 - Updated Tasks File
+Thursday's Lecture - Do and For Statements File
+Assignment 2 Submission Link
+Monday's Lecture - Break and Continue Statements File
+Thursday's Lecture - Goto and Null Statements and Introduction to Arrays File
+Group Project File
 Lab 8 File
 Lab 8 Submission A Assignment
 Lab 8 Submission B Assignment
+Monday's Lecture - Array Subscripting and Initialization File
 Lab 9 File
-Lab 9 Submission A  Assignment
-Lab 9 Submission B  Assignment
+Lab 9 Submission A Assignment
+Lab 9 Submission B Assignment
+Monday's Lecture - Multidimensional and Constant Arrays File
+Thursday's Lecture - Variable Length Arrays and Introduction to Functions File
 Lab 10 File
-Lab 10 Submission A Assignment
-Lab 10 Submission B Assignment
-Assignment 3
+Lab 10 Submission A  Assignment
+Lab 10 Submission B  Assignment
+Monday's Lecture - Functions File
+Thursday's Lecture - Array Arguments to Functions File
+Assignment 3 - Functions File
 Lab 11 File
 Lab 11 Submission A Assignment
-Lab 11 Submission B  Assignment
-LABQUIZ  B
-Lab 12 Quiz A
-Lab 12 Quiz B
+Lab 11 submission B Assignment
+Current Project Groups A File
+Current Project Groups B File
+Monday's Lecture - Compound Literals, Return Statement, Exit Function and Recursive Functions File
+Thursday's Lecture - Quicksort Algorithm and Integer Data Types File
+Assignment 3 Submission Link
+Project Presentation Slots B File
+Project Presentation Slots A File
 Lab 12 File
-Lab 12 submission A Assignment
-Lab 12 submission B Assignment
-MATH161 Discrete Mathematics BSCS 2k22 AB
-Lecture 1 File
-Lecture 2 File
-Lecture 3 File
-Lecture 3 (Sec A) File
-Discrete Mathematics Textbook File
-Discrete Mathematics Reference Book File
-Lecture 4(Sec A) File
-Lecture 4(Sec B) File
-Lecture 5(Sec B) File
-Lecture 5(Sec A) File
-Lecture 6(Sec B) File
-Lecture 6(Sec A) File
-Lecture 7(Sec A) File
-Lecture 7(Sec B) File
-Assignment 1 File
-Lecture 8(Sec B) File
-Lecture 8(Sec A) File
-Lecture 9(Sec A,B) File
-Lecture 10 File
-Lecture 11(Sec B) File
-Lecture 11(Sec A) File
-Lecture 12 (Sec B) File
-Lecture 12(Sec A) File
-Lecture 13(Sec A) File
-Lecture 13(Sec B) File
-Lecture 14(Sec B) File
-Lecture 14(Sec A) File
-Lecture 15 (Sec A,B) File
-Lecture 16 File
-Lecture 17(Sec B) File
-Lecture 17(Sec A) File
-Lecture 18 File
-Assignment 2 File
-Lecture 19(Sec A) File
-Lecture 19(Sec B) File
-Lecture 20(Sec B) File
-Lecture 20(Sec A) File
-Lecture 21(Sec A) File
-Lecture 21(Sec B) File
-Lecture 22(Sec A) File
-Lecture 22(SecB) File
-Lecture 23(Sec B) File
-Lecture 23(Sec A) File
-Lecture 24(Sec A, B) File
-Lecture 25(Sec B) File
-Lecture 25(Sec A) File
-Lecture 26(Sec A) File
-Lecture 26(Sec B) File
-Lecture 27(Sec B) File
-Lecture 27(Sec A) File
-Lecture 28(Sec B) File
-Lecture 28(Sec A) File
-Lecture 29 File
-Lecture 30 File
-Lecture 31(Sec B) File
-Lecture 31(Sec A) File
-Lecture 32(Sec A) File
-Lecture 32(Sec B) File
-Lecture 33(Sec B) File
-Lecture 33(Sec A) File
-Lecture 34(Sec A) File
-Lecture 34(Sec B) File
-Lecture 35(Sec A) File
-Lecture 35(Sec B) File
-Lecture 36(Sec B) File
-Lecture 36(Sec A) File
-Lecture 37(Sec B) File
-Lecture 37(Sec A) File
-Assignment 3 File
-Lecture 38(Sec A) File
-Lecture 38(Sec B) File
-Lecture 39(Sec B) File
-Lecture 39(Sec A) File
-Lecture 40(Sec B) File
-Lecture 40(Sec A) File
-Lecture 41(Sec A) File
-Lecture 41(Sec B) File
-Lecture 42(Sec B) File
-Lecture 42(Sec A) File
-HU108 Communication and Interpersonal Skills BSCS 2k22 AB
+Lab 12 Submission A  Assignment
+Lab 12 Submission B  Assignment
+Lab quiz 2 A
+Lab quiz 2 B
+Monday's Lecture - Data Types File
+Thursday's Lecture - Type Conversions, Type Casting and Type Definitions File
+Lab 13 File
+Lab 13 Submission A Assignment
+Lab 13 Submission B Assignment
+Monday's Lecture - Local and External Variables File
+Group Project Submission Link - Section A Assignment
+Group Project Submission Link - Section B Assignment
+HU100 English BESE 2k22 AB
 Course Outline File
-Communication Process File
-Listening Skills File
-7C's of Communication File
-Verbal & Non-Verbal Communication File
-Forms of Verbal Expression File
-Assignment-I
-Reading Skills File
-Communication at Workplace  File
-Emotional Intelligence  File
-Social Media & Email File
-Cross Cultural Communication File
-Persuasive message File
-Public Speaking File
-Power Point Presentation File
-Formal Letter File
-Presentations on Cultural Diversity File
-MATH111 Calculus-I BSCS 2k22 ABC
-Course Outline (Calculus-I-MATH-111) File
-1. Introduction File
-2. Functions File
-Book-Advanced engineering mathematics (10th edition) File
-Book-Calculus and Analytic Geometry (9th edition) File
-Book-Thomas Calculus (11th edition) File
-3. Inverse of a Function File
-4. Identifying Functions File
-5. Graphing Techniques of Functions File
-6. Limit of a function File
-7. One-sided limits and limits at infinity File
-8. Asymptotes File
-9. Continuity File
-10. Tangents and Derivatives File
-11- Derivative as a function File
-12. Differentiation Rules File
-Quiz 1-Solution File
-13. Derivatives of Trigonometric Functions File
-14. Chain Rule File
-15. Implicit Differenciation File
-16. Rate of Change File
+Plagiarism  File
+Book Review: Research Paper File
+Disasters due to Poor Communication URL
+7Cs File
+Reading: 7Cs URL
+Consonant Sounds URL
+Review the video: 1001 inventions URL
+Vowel Sounds URL
+Pronunciation Problem: Video URL
+Exercise: Phrases and Clauses Folder
+Clauses and Phrases Folder
+Types of Sentences Folder
+Personal Narratives and Public Speaking URL
+Writing Life Stories URL
+Modifiers File
+Parallelism File
+Research Papers File
+MATH161 Discrete Mathematics  BESE 2k22 AB
+MATH-161 - Discrete Mathematics Fall 2022-Course Outline File
+Discrete Mathematics and Its Applications 7th Edition - Rosen File
+discrete mathematics with applications 4th edition by susanna epp File
+Discrete Mathematics-Lecture-1 File
+Propositional Logic - I (Lecture 2 and 3) File
+Lecture 4 File
+Lecture 5 File
+Lecture 6 File
+Lecture 7 File
+Lecture 8 File
+Lecture 9 File
+Lecture 10, 11, 12 File
+Lecture 13,14 File
+Lecture 15 File
+Lecture 16 File
+Lecture 17 File
 Assignment 1 File
-17. Related Rate File
-Quiz 2-Solution File
-18. Linearization and Differentials File
-19. Extreme values of Functions File
-20. Mean Value Theorem File
-21. Monotonicity and Concavity File
-22. Indeterminate Forms and LHopitals Rule File
-23. Curve Sketching File
-24. Optimization Problem File
-25. Antiderivatives File
-26. Finite Sums File
-27. Definite Integral File
-28. Fundamental Theorem of Calculus File
-29. Indefinite Integrals and Substitution Rule File
-30. Area between the curves File
+Lecture 18 File
+Lecture 19-20 File
+Lecture 20 File
+Lecture 21 File
+Lecture 21-1 File
+Lecture 22 and 23 File
+Lecture 24 File
+Lecture 25 File
+Lecture 26-27 File
+Relation on Sets (cont.) File
+Lecture 28 File
+Lecture 29-30 File
+Lecture 31 File
+Lecture 32 File
+Lecture 33 File
+Assignment-2 File
+Assignment 3 File
+Lecture 34 File
+Lecture 35 File
+Lecture 36 File
+Lecture 37-38 File
+Lecture 38-39 File
+Lecture 40-41 File
+Lecture 41-42 File
+MATH101 Calculas and Analytical Geometry BESE 2k22 AB
+Course Outline-Calculus  Analytical Geometry (MATH-101) File
+Lec 1 Course Outline File
+Thomas Calculus 14th Edition File
+Lec 2 Functions File
+Lec 3 Functions File
+Calculus- 11th Ed File
+Lec 4 Functions File
+Lec 5 Functions File
+Lec 6 Functions File
+Lec 7 and 8 Limit (22) File
+Lec 9 Limit Laws (22) File
+Lec 10 Limits (22) File
+Lec 11 Limits involving Infinity (22) File
+Lec 12 Limits involving Infinity (22) File
+Lec 13 Asymptotes (22) File
+Lec 14 Continuity (22) File
+Assignment 1 File
+Teams title and Code Board
+Lec 15 Differentiation and its Rules (22) File
+Lec 16 Chain Rule (22) File
+Lec 17 Related Rates (22) File
+Lec 18 indeterminant forms(22) File
+Lec 19 L Hopital Rule(22) File
+Lec 20 Extreme Values (22) File
+Lec 21 Extreme Values (22) File
+Lec 22 Extreme Values (22) File
+Lec 23 Extreme Values (22) File
+Lec 24 Concavity (22)B File
+Lec 24 Concavity (22)A File
+Lec 25 Optimization (22) File
+Lec 26 Optimization and Integration(22) File
+Lec 27 Intergation (22) File
+Lec 28 Areas (22) File
+Lec 29 and 30 Volumes (22) File
+Lec 31,32  Volumes (22) File
+Lec 33 Arc Length (22) File
+Lec 34 Surface area and Sequences (22) File
+Lec 35 Sequences and series (22) File
+Lec 36 Infinite series (22) File
+Lec 37 Integral Test (22) File
+Lec 38 Integral and comparison Tests (22) File
+Lec 39 Root and Ratio Tests (22) File
+Assignment 2(SE-13AB) File
+Assignment 3(Fall 22 A) File
+Assignment 3(Fall 22 B) File
+Lec 42 Alternating and Power Series(22) File
+PHY102 Applied Physics BESE 2k22 AB
+Course outline (Applied Physics-PHY-102) File
+Course Books Folder
+Lecture-1 File
+Lecture 2 File
+Homework Work and Energy File
+Lecture-3 File
+Friction Homework  File
+Lecture-4 and 5 File
+Homework Rotation and Moment of Inertia File
+Lecture-4 and 5 (copy) File
+Lecture 6 and 7 File
+Solution to HW File
+Problem 4 File
+Lecture 6 and 7 (copy) File
+Homework Oscillations File
+Solutions File
+Lecture 8 File
+Lecture 9 File
+Assignment 1 File
+Lecture 10 Final File
+Solutions to SHM Homework File
+Sol of Homework Rotation and Moment of Inertia File
+Homework The Electric Charge and Coulombs Law File
+solution to Coulomb's Law Homework File
+Lecture 10-11 File
+Lecture-12 File
+Homework The Electric  Field File
+Solution of Homework The Electric  Field File
+Lecture-12/13 File
+Lecture-14 File
+Lecture-15 File
+Lecture 16 File
+Formula Sheet File
+Lecture-17 File
+Lecture-18-Electric Potential File
+Homework The Gauss Law File
+Homework The Gauss Law Solution File
+Homework Electric Potential File
+Solution of Homework Electric Potential File
+Lecture 19-Electric Current File
+Homework Electric Current File
+Solution of Homework Electric Current File
+Lecture 20-Magnetic Field- File
+Homework Magnetic Field File
 Assignment 2 File
-31. Volumes of Solids-Slicing Method File
-32. Volume of Solid of Revolution File
-33. Volume by Cylindrical Shell Method File
-34. Length of Plane Curves File
-35. Area of Surface of Revolution File
-36. Hyperbolic Functions File
+Amperes Law File
+Solution Quiz 4 File
+Homework Amperes Law File
+Chapter 33 File
