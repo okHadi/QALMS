@@ -27,6 +27,7 @@ def teacherinfo():
         elif " " in line:
             instructor_name = line.strip()
         # The line is the instructor email
+
         else:
             instructor_email = line.strip()
             # Check if the course is already in the result dictionary
@@ -39,5 +40,7 @@ def teacherinfo():
                 "instructor_names": [instructor_name],
                 "instructor_emails": [instructor_email]
             }
+
+        
     del result[""]
     return result
