@@ -1,0 +1,12 @@
+txtData/assignmentdata.txt
+txtData/attd_data.txt
+txtData/contentdata.txt
+txtData/courseteacherinfo.txt
+txtData/messinvoice.txt
+txtData/results.csv
+txtData/results.txt
+txtData/studentinfo.txt
+txtData/timetable.txt
+txtData/__pycache__
+__pycache__
+loginAndScrape/__pycache__
