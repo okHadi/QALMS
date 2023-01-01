@@ -109,10 +109,16 @@
         background-color: #ddd;
       }
       .row {
-        margin-left: -5px;
-        margin-right: -5px;
+        display: flex;
       }
 
+      .table-responsive {
+        overflow-x: auto;
+      }
+
+      .col-md-6 {
+        width: 50%;
+      }
       .column {
         float: left;
         width: 50%;
@@ -125,9 +131,6 @@
         background-color: #04aa6d;
         color: white;
       }
-      /* ================================= 
-      Media Queries
-    ==================================== */
 
       @media (min-width: 769px) {
         .header,
@@ -166,7 +169,7 @@
       studentData.department }}
     </h2>
     <div class="row">
-      <div class="column">
+      <div class="table-responsive col-md-6">
         <h2>Attendance:</h2>
         <table id="table">
           <tr>
@@ -185,7 +188,7 @@
           {% endfor %}
         </table>
       </div>
-      <div class="column">
+      <div class="table-responsive col-md-6">
         <h2>Today's timetable:</h2>
         <table id="table">
           <tr>
@@ -204,90 +207,93 @@
           {% endfor %}
         </table>
       </div>
-      <div class="row">
-        <div class="column">
-          <table id="table">
-            <tr>
-              <th>Key</th>
-              <th>Value</th>
-            </tr>
-            {% for key, value in messdata.items() %}
-            <tr>
-              <td>{{ key }}</td>
-              <td>{{ value }}</td>
-            </tr>
-            {% endfor %}
-          </table>
-        </div>
-        <div class="column">
-          <h2>Contact your Instructor:</h2>
-          <table id="table">
-            <thead>
-              <tr>
-                <th>Course</th>
-                <th>Instructor Names</th>
-                <th>Instructor Emails</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for course_name, course_info in teacherInfo.items() %}
-              <tr>
-                <td>{{ course_name }}</td>
-                <td>{{ course_info.instructor_names|join(', ') }}</td>
-                <td>
-                  {% for email in course_info.instructor_emails %}
-                  <a href="mailto:{{ email }}" style="color: blue"
-                    >{{ email }}</a
-                  >{% if not loop.last %}, {% endif %} {% endfor %}
-                </td>
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        </div>
+    </div>
+    <div class="row">
+      <div class="table-responsive col-md-6">
+        <h2>Mess invoice:</h2>
+        <table id="table">
+          <tr>
+            <th></th>
+            <th></th>
+          </tr>
+          {% for key, value in messdata.items() %}
+          <tr>
+            <td>{{ key }}</td>
+            <td>{{ value }}</td>
+          </tr>
+          {% endfor %}
+        </table>
       </div>
-
-      <h2>Assignments uploaded:</h2>
-      <div class="row">
-        <div class="column">
-          <table id="table">
+      <div class="table-responsive col-md-6">
+        <h2>Contact your Instructor:</h2>
+        <table id="table">
+          <thead>
             <tr>
               <th>Course</th>
-              <th>Assignments</th>
+              <th>Instructor Names</th>
+              <th>Instructor Emails</th>
             </tr>
-            {% for course, assignments in assignment.items() %}
+          </thead>
+          <tbody>
+            {% for course_name, course_info in teacherInfo.items() %}
             <tr>
-              <td>{{ course }}</td>
+              <td>{{ course_name }}</td>
+              <td>{{ course_info.instructor_names|join(', ') }}</td>
               <td>
-                {% for assignment in assignments %} {{ assignment }}<br />
-                {% endfor %}
+                {% for email in course_info.instructor_emails %}
+                <a href="mailto:{{ email }}" style="color: blue">{{ email }}</a
+                >{% if not loop.last %}, {% endif %} {% endfor %}
               </td>
             </tr>
             {% endfor %}
-          </table>
-          <table id="table">
-            <h2>Results:</h2>
-            <th>Course</th>
-            {% for course_name, course_data in resultdata.items() %}
-            <tr>
-              <td class="collapsible">
-                <span class="arrow"></span>
-                {{ course_name }}
-              </td>
-            </tr>
-            {% for assessment_type, assessment_data in course_data.items() %}
-            <tr class="content">
-              <td>{{ assessment_type }}</td>
-              <td>{{ assessment_data.Max_Mark }}</td>
-              <td>{{ assessment_data.Obtained_Mark }}</td>
-              <td>{{ assessment_data.Class_Average }}</td>
-              <td>{{ assessment_data.Percentage }}</td>
-            </tr>
-            {% endfor %} {% endfor %}
-          </table>
-        </div>
+          </tbody>
+        </table>
       </div>
     </div>
+    <div class="row">
+      <div class="table-responsive col-md-6">
+        <h2>Assignments uploaded:</h2>
+
+        <table id="table">
+          <tr>
+            <th>Course</th>
+            <th>Assignments</th>
+          </tr>
+          {% for course, assignments in assignment.items() %}
+          <tr>
+            <td>{{ course }}</td>
+            <td>
+              {% for assignment in assignments %} {{ assignment }}<br />
+              {% endfor %}
+            </td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+      <div class="table-responsive col-md-6">
+        <table id="table">
+          <h2>Results:</h2>
+          <th>Course</th>
+          {% for course_name, course_data in resultdata.items() %}
+          <tr>
+            <td class="collapsible">
+              <span class="arrow"></span>
+              {{ course_name }}
+            </td>
+          </tr>
+          {% for assessment_type, assessment_data in course_data.items() %}
+          <tr class="content">
+            <td>{{ assessment_type }}</td>
+            <td>{{ assessment_data.Max_Mark }}</td>
+            <td>{{ assessment_data.Obtained_Mark }}</td>
+            <td>{{ assessment_data.Class_Average }}</td>
+            <td>{{ assessment_data.Percentage }}</td>
+          </tr>
+          {% endfor %} {% endfor %}
+        </table>
+      </div>
+    </div>
+
     <script>
       var coll = document.getElementsByClassName("collapsible");
       var i;
