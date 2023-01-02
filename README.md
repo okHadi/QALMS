@@ -32,3 +32,8 @@ https://github.com/pallets/jinja
 
 pip install -U Jinja2
 ```
+lxml - a Python library which allows for easy handling of XML and HTML files, and can also be used for web scraping.
+```
+https://github.com/lxml/lxml
+
+pip install lxml
