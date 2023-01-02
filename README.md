@@ -2,6 +2,13 @@
 A repo for the QALMS project, made with Flask.
 
 Uses:
+Pandas - Flexible and powerful data analysis / manipulation library for Python.
+```
+https://github.com/pandas-dev/pandas
+
+pip install pandas
+```
+
 Flask - The Python micro framework for building web applications.
 ```
 https://github.com/pallets/flask
@@ -37,3 +44,4 @@ lxml - a Python library which allows for easy handling of XML and HTML files, an
 https://github.com/lxml/lxml
 
 pip install lxml
+```
