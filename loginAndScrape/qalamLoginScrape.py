@@ -30,20 +30,20 @@ def qalamLogin(username, password):
     )
     currentURL = driver.current_url
     if currentURL == "https://qalam.nust.edu.pk/student/dashboard":
-        with open('txtData/timetable.txt', 'w') as f:
+        #Student data:
+        with open('txtData/timetable.txt', 'w') as f: #Open the txt fil for timetable
             dashhtml = driver.page_source
             dashsoup = BeautifulSoup(dashhtml, 'html.parser')
-            classes = dashsoup.find_all(class_="user_heading_content")
+            classes = dashsoup.find_all(class_="user_heading_content") #Extract all the student data on 
             timetableraw=[]
             for timet in classes:
-                timetableraw.append(timet.get_text())
-            string = '\n'.join(timetableraw)
+                timetableraw.append(timet.get_text()) #Get the data from the navigable string and append to a list
+            string = '\n'.join(timetableraw) 
             # timetable=timetableraw.split("Today Classes:")
             # result = "Today Classes".join(timetable[2:])
-            timetable = string.split('Today Classes:')
-            result='\n'.join(timetable[1:])
-                #Iterate over the elements of the list
-            f.write(result)
+            timetable = string.split('Today Classes:') #Split at 'Today Classes'
+            result='\n'.join(timetable[1:]) #Join the rest
+            f.write(result) #Write the data to the txt file
             # for timet in timetable:
             # f.write(timet +"\n")
         f.close()
@@ -54,21 +54,22 @@ def qalamLogin(username, password):
         coursesearch=dashsoup.find_all('span',class_='md-list-heading md-color-grey-900')
         coursenames=[]
         for name in coursesearch:
-            coursenames.append(name.text)
-        anchors=dashsoup.find_all('a',href=re.compile(r'results/id/'))
+            coursenames.append(name.text) #Find all the course names and store them into a list
+        anchors=dashsoup.find_all('a',href=re.compile(r'results/id/')) 
+        #Redirect to the dashboard on Qalam and get all the links for the course results
         all_links=[]
         for link in anchors:
             if(link.get('href') != '#'):
                 linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
-                all_links.append(linkT)
+                all_links.append(linkT) 
         # Open a new file in write mode
             #Get student's name and CMS ID
         with open('txtData/studentinfo.txt','w') as f:
             info = dashsoup.find_all('h2',class_='heading_b')
             for text in info:
-                f.write(text.get_text()+'\n')
+                f.write(text.get_text()+'\n') #Write the student info into txt
         f.close()
-        #RESULTS DATA:
+        #COURSE DATA:
         coursesearch=dashsoup.find_all('span',class_='md-list-heading md-color-grey-900')
         coursenames=[]
         for name in coursesearch:
@@ -80,29 +81,29 @@ def qalamLogin(username, password):
                 linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
                 all_links.append(linkT)
         # Open a new file in write mode
-
+        #Mess invoice data:
         with open('txtData/messinvoice.txt', 'w') as f:
             messinv = session.get("https://qalam.nust.edu.pk/student/messinvoices",cookies=auth_keys)
             messsoup = BeautifulSoup(messinv.text, 'html.parser')
             messtable = messsoup.find('table')
             if messtable != 'None':
-                messrows =  messtable.find_all('tr')
-            messheaders = messtable.find_all('th')
-            messcells = messrows[-1].find_all('td')
+                messrows =  messtable.find_all('tr') #Get all the rows for mess invoice table
+            messheaders = messtable.find_all('th') #Get all the headers for the mess invoice table
+            messcells = messrows[-1].find_all('td') #Get all the cells from the rows extracted before
             for j,header in enumerate(messheaders):
                 if j!=9:
                     f.write(header.get_text() + '\t')
             print('\n')
             for k,cell in enumerate(messcells):
                 if k!=9:
-                    f.write(cell.get_text() + '\t')
+                    f.write(cell.get_text() + '\t') #Write the headers and cells into a txt file respectively
         f.close()
 
 
-        with open('txtData/results.txt', 'w') as f:
+        with open('txtData/results.txt', 'w') as f: #Open a txt for results
             i=0
             for link in all_links:
-
+                #Iterate through the course links
                 # Send an HTTP request to the URL of the current link
                 response2 = session.get(link,cookies=auth_keys)
                 # Parse the response using Beautiful Soup
@@ -114,10 +115,12 @@ def qalamLogin(username, password):
                 if table!='None':
                     f.write(coursenames[i] + '\n')
                     df = pd.read_html(str(table))[0]
+                    #Make a dataframe from the html table
                     mask = df['Obtained Percentage'].notnull()
+                    #Remove the rows with Null values
                     df = df[mask]
                     f.write(df.to_string())
-                    f.write('\n')
+                    f.write('\n') #Write this data frame to txt
                     
                 i+=1
 
@@ -129,13 +132,13 @@ def qalamLogin(username, password):
         for link in attanchors:
             if(link.get('href') != '#'):
                 linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
-                attd_links.append(linkT)
+                attd_links.append(linkT) #Get all the links from the attendance tab for the course attendance
         with open('txtData/attd_data.txt', 'w') as f:
-            for link in attd_links:
+            for link in attd_links: #Iterate through them and get these links and their html
                 attendance = session.get(link,cookies=auth_keys)
                 attendancesoup=BeautifulSoup(attendance.text,'html.parser')
                 elements=attendancesoup.find_all(class_="md-color-blue-grey-900")
-                attd_data=[]
+                attd_data=[] #Parse it and find all the attendance info
                 for element in elements:
                     attd_data.append(element.get_text())
                 #Iterate over the elements of the list
