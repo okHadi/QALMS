@@ -38,6 +38,7 @@ def login():
 @app.route('/logout')
 def logout():
     session.pop('logged_in', None)
+    print(session)
     return redirect(url_for('login'))
 
 @app.route('/', methods=['GET'])
@@ -45,6 +46,7 @@ def home():
     if 'logged_in' not in session:
         return redirect(url_for('login'))
     else:
+        
         attdData = extractAttd()
         timetabledata = extactTimeTable()
         teacherInfo = teacherinfo()

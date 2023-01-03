@@ -187,7 +187,11 @@
       <h1 class="logo"><a href="/">QALMS</a></h1>
       <ul class="main-nav">
         <li><a href="/">Home</a></li>
+        {% if 'logged_in' in session %}
+        <li><a href="/logout">Logout</a></li>
+        {% else %}
         <li><a href="/login">Login</a></li>
+        {% endif %}
       </ul>
     </header>
     <div class="about-section">
