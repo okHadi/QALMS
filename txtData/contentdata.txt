@@ -5,20 +5,20 @@ Bachelors of Electrical Engineering 2022 Intake Assignment
 HU107 Pakistan Studies BSCS 2k22 ABC
 Pakistan Studies 2+0 File
 Assignment #1 File
-India’s partition mapped out by blunders and blood URL
+Indiaâ€™s partition mapped out by blunders and blood URL
 The Great Divide URL
-Remembering partition: ‘It was like a slaughterhouse’ URL
-The Partition: The British game of ‘divide and rule’ URL
+Remembering partition: â€˜It was like a slaughterhouseâ€™ URL
+The Partition: The British game of â€˜divide and ruleâ€™ URL
 India-Pakistan partition explained URL
 The 1947 Partition: Drawing the Indo-Pakistani Boundary URL
 The Two-Nation Reality versus Theory URL
 70 Years of the Radcliffe Line: Understanding the Story of Indian Partition URL
 How British's "Divide and Rule" destroyed India ? | UPSC URL
 DIVIDE & RULE URL
-India’s colonial history URL
+Indiaâ€™s colonial history URL
 Dr Shashi Tharoor MP - Britain Does Owe Reparations URL
 An interpretation of the Lahore Resolution URL
-Jinnah – Gandhi Talks (1944) URL
+Jinnah â€“ Gandhi Talks (1944) URL
 Round Table Conference URL
 Allama Iqbal - Two Nation Theory & Jinnah's Vision of Pakistan URL
 Geostrategic importance of Pakistan File
@@ -36,9 +36,9 @@ Gwadar: A Game Changer for Pakistan | Detail of CPEC | Benefits for Pakistan | I
 Governmental Structure of Pakistan URL
 GOVERNMENT STRUCTURE URL
 SYSTEM OF GOVERNANCE IN PAKISTAN: PARLIAMENTARY DEMOCRACY URL
-Pakistan’s angry political culture URL
-Intense polarization and Pakistan’s democratic future URL
-The social polarization and Pakistan’s present political turmoil URL
+Pakistanâ€™s angry political culture URL
+Intense polarization and Pakistanâ€™s democratic future URL
+The social polarization and Pakistanâ€™s present political turmoil URL
 Us VS Them: Increasing Social and Political Polarization in Pakistan URL
 Us VS Them: Increasing Social and Political Polarization in Pakistan URL
 Dynamics of ethnic conflicts in Pakistan URL
@@ -48,22 +48,22 @@ Assignment Cover Page File
 What is National Action Plan/Its all 20 Contents Explained URL
 National Action Plan 2014 URL
 Pakistan-in-the-FATF-Grey-list File
-Pakistan removed from global ‘terrorism’ financing list URL
+Pakistan removed from global â€˜terrorismâ€™ financing list URL
 APG-Mutual-Evaluation-Report-Pakistan-October 2019 File
 APG-2nd-Follow-Up-Report-Pakistan-2021 File
 Article-2-2-Oct-2018-ED-SSA File
-Pakistan Comes Closer to Exiting Terror Funding Monitor’s ‘Gray List’  URL
+Pakistan Comes Closer to Exiting Terror Funding Monitorâ€™s â€˜Gray Listâ€™  URL
 Pakistan announces terrorism finance crackdown on banned militant group URL
 Global economic outlook and Pakistan URL
 Pakistan's Economic Crisis URL
 Failure of governance URL
-Pakistan won’t default URL
+Pakistan wonâ€™t default URL
 IB-Ramsha Qamar Sept 6 2022 File
-Pakistan’s population problem URL
+Pakistanâ€™s population problem URL
 Indian-funded terrorism in Balochistan URL
 What lies behind Pakistani charges of Indian 'terrorism' URL
 Indian Interference in Balochistan: Analysing the Evidence and Implications for Pakistan URL
-What the Kulbhushan Jadhav Saga Reveals About India and Pakistan’s Balochistan Problems URL
+What the Kulbhushan Jadhav Saga Reveals About India and Pakistanâ€™s Balochistan Problems URL
 CS100 Fundamentals of ICT BSCS 2k22 ABC
 Course text book----Introduction to computers File
 CS-100-ICT-Outline File
@@ -346,3 +346,4 @@ Assignment 2 File
 34. Length of Plane Curves File
 35. Area of Surface of Revolution File
 36. Hyperbolic Functions File
+Quiz 4-Solution File

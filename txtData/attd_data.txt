@@ -56,7 +56,7 @@ Number of classes Attended :
 
 
 Attendance Percentage:
-93.33
+93.62
 
 
 Course :
@@ -96,7 +96,7 @@ Number of classes Attended :
 
 
 Attendance Percentage:
-84.44
+85.11
 
 
 Course :
@@ -108,15 +108,15 @@ MATH-161-F22-SEECS/BSCS/2022F-B-lecture
 
 
 Number of classes Conducted :
-45
+46
 
 
 Number of classes Attended :
-39
+40
 
 
 Attendance Percentage:
-88.64
+86.96
 
 
 Course :
@@ -136,7 +136,7 @@ Number of classes Attended :
 
 
 Attendance Percentage:
-93.1
+87.1
 
 
 Course :
@@ -148,13 +148,13 @@ HU-108-F22-SEECS/BSCS/2022F-B-lecture
 
 
 Number of classes Conducted :
-41
+44
 
 
 Number of classes Attended :
-39
+41
 
 
 Attendance Percentage:
-95.12
+93.02
 
