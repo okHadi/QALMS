@@ -32,11 +32,11 @@ Number of classes Conducted :
 
 
 Number of classes Attended :
-15
+14
 
 
 Attendance Percentage:
-100.0
+93.33
 
 
 Course :
@@ -52,11 +52,11 @@ Number of classes Conducted :
 
 
 Number of classes Attended :
-44
+47
 
 
 Attendance Percentage:
-93.62
+100.0
 
 
 Course :
@@ -92,11 +92,11 @@ Number of classes Conducted :
 
 
 Number of classes Attended :
-40
+44
 
 
 Attendance Percentage:
-85.11
+93.62
 
 
 Course :
@@ -112,11 +112,11 @@ Number of classes Conducted :
 
 
 Number of classes Attended :
-40
+45
 
 
 Attendance Percentage:
-86.96
+97.83
 
 
 Course :
@@ -132,11 +132,11 @@ Number of classes Conducted :
 
 
 Number of classes Attended :
-27
+29
 
 
 Attendance Percentage:
-87.1
+93.55
 
 
 Course :
@@ -156,5 +156,5 @@ Number of classes Attended :
 
 
 Attendance Percentage:
-93.02
+93.18
 

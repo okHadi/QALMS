@@ -1,12 +1,12 @@
 Invoice No	Invoice Date	Due Date	Hostel	Bill Month	Receipt For	Barcode	Total Amount	Status	Downloaded	Downloaded Date	
-                                                        Mess Bill of Muhammad Hadi Khan for December-2022
+                                                        Mess Bill of Muhammad Muzamil Kaleem for December-2022
                                                         2022-12-09
                                                         2022-12-16
                                                         Ghazali Hostels Block-II
                                                         December 2022
                                                         Mess Fee
-                                                        1389
-                                                        9204.0
+                                                        1424
+                                                        9912.0
                                                             Paid
                                                             Downloaded
-                                                         2022-12-09 16:02:43.751817
+                                                         2022-12-09 19:09:07.510257
