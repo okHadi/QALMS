@@ -3,6 +3,22 @@
   <head>
     <title>Login Form</title>
     <style>
+      .password-toggle {
+        position: relative;
+      }
+      .password-toggle input[type="password"] {
+        padding-right: 35px;
+      }
+      .password-toggle .btn {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 4px 8px;
+      }
+      .password-toggle .btn:before {
+        content: "\f06e";
+        font-family: "FontAwesome";
+      }
       * {
         box-sizing: border-box;
       }
@@ -178,15 +194,39 @@
         <label for="username">Username:</label>
         <input type="text" name="username" required />
         <br />
-        <label for="qalampass">Qalam password:</label>
-        <input type="password" name="qalampass" required />
+        <div class="password-toggle">
+          <label for="qalampass">Qalam password:</label>
+          <input type="password" id="qalampass" name="qalampass" required />
+          <button
+            class="btn"
+            type="button"
+            onclick="togglePassword('qalampass')"
+          ></button>
+        </div>
         <br />
-        <label for="lmspass">LMS password:</label>
-        <input type="password" name="lmspass" required />
+        <div class="password-toggle">
+          <label for="lmspass">LMS password:</label>
+          <input type="password" id="lmspass" name="lmspass" required />
+          <button
+            class="btn"
+            type="button"
+            onclick="togglePassword('lmspass')"
+          ></button>
+        </div>
         <br />
         <input type="submit" value="Submit" />
       </form>
       <footer>&copy; 2023 Ghazali Labs</footer>
     </div>
+    <script>
+      function togglePassword(inputId) {
+        var passwordInput = document.getElementById(inputId);
+        if (passwordInput.type === "password") {
+          passwordInput.type = "text";
+        } else {
+          passwordInput.type = "password";
+        }
+      }
+    </script>
   </body>
 </html>
