@@ -34,11 +34,11 @@ def messinvoice():
         
         # Create a dictionary with the extracted data
         data = {
-            'student_name': student_name,
-            'invoice_date': invoice_date,
-            'due_date': due_date,
-            'amount': amount,
-            'status': status
+            'Student name': student_name,
+            'Invoice date': invoice_date,
+            'Due date': due_date,
+            'Amount': amount,
+            'Status': status
         }
     
     # Print the dictionary
