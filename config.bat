@@ -25,7 +25,7 @@ del add_to_startup.vbs
 set source_file=%cd%\data.json
 set target_folder=%cd%\dist
 
-move %source_file% %target_folder%
+xcopy %source_file% %target_folder% /Y
 
 echo File moved successfully.
 echo Executable added to startup successfully.
