@@ -4,3 +4,9 @@ A repo for the QALMS project, made with Flask for 1st semester project, BSCS NUS
 This is scrapper for lms course contents; runs periodically as exe file upon startup; downloads only new content
 
 Clone the repo and put your credentials in the 'data.json' file and run the bash script
+
+Necessary libraries to be installed:
+- python 
+- selenium-wire
+- json
+- pyinstaller
