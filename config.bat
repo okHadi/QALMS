@@ -22,11 +22,10 @@ cscript //nologo add_to_startup.vbs
 
 del add_to_startup.vbs
 
-set source_folder=C:\source_folder
-set target_folder=C:\target_folder
-set file_name=example.txt
+set source_file=%cd%\data.json
+set target_folder=%cd%\dist
 
-move "%source_folder%\%file_name%" "%target_folder%\%file_name%"
+move %source_file% %target_folder%
 
 echo File moved successfully.
 echo Executable added to startup successfully.
