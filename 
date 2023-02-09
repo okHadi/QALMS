@@ -1,0 +1,282 @@
+[33mcommit d91d8c0d7fe616efb1217579d21936cdcc98cf66[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/muz-scrape-v2[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: muzamilkm <mkaleem.bscs22seecs@seecs.edu.pk>
+Date:   Tue Jan 3 11:09:07 2023 +0500
+
+    Added comments for Qalam scrape
+
+[33mcommit 82ba10fa08f42baf7a7aba941769df25bf9c31e1[m
+Author: muzamilkm <mkaleem.bscs22seecs@seecs.edu.pk>
+Date:   Tue Jan 3 10:35:22 2023 +0500
+
+    Added comments to the LMS scrape
+
+[33mcommit 0c7a77cfb3097b1156770a6fd832e19b7ffbea0a[m
+Merge: 0c29404 4275ecf
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Tue Jan 3 07:11:00 2023 +0500
+
+    Merge branch 'main' of github.com:okHadi/QALMS
+    Ji
+
+[33mcommit 0c294048cb9554b14492131f4be1f94b366aa13b[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Tue Jan 3 07:10:02 2023 +0500
+
+    Added fav icon
+
+[33mcommit f2f482a7071075f8783df09afe1ebcbdefdabb58[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Tue Jan 3 07:07:43 2023 +0500
+
+    Added fav icon
+
+[33mcommit 4275ecfbdddabb33c5d0a22f6c6aeb77a264853e[m
+Author: syed aman <103549464+amanhsn@users.noreply.github.com>
+Date:   Tue Jan 3 06:57:52 2023 +0500
+
+    Update README.md
+
+[33mcommit 1b21b676a8c33ab7541dff0fea5c8a34a3beaad2[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Tue Jan 3 06:54:31 2023 +0500
+
+    Added password reveal
+
+[33mcommit d25c595c628edfce575465cd3a82ef51ebd32112[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Tue Jan 3 06:38:05 2023 +0500
+
+    Added logout buttons functionality
+
+[33mcommit 556b003885790f6267bf3b7d402ec0ceb4135f55[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Tue Jan 3 06:21:13 2023 +0500
+
+    Fixed mess
+
+[33mcommit f526ef3ebd7f9dfbfecaf2571714a6ebbf7a16aa[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Tue Jan 3 06:08:52 2023 +0500
+
+    tables updated
+
+[33mcommit 3d38aadbdb8e6bfba4c07917516db31277f967df[m
+Author: okHadi <64269712+okHadi@users.noreply.github.com>
+Date:   Tue Jan 3 04:45:30 2023 +0500
+
+    Update README.md
+
+[33mcommit f0404ae0f19c5f1bba2b95abc4a7b59944b6db53[m
+Author: muzamilkm <mkaleem.bscs22seecs@seecs.edu.pk>
+Date:   Mon Jan 2 22:50:04 2023 +0500
+
+    Updated README.md
+
+[33mcommit b71ba8f1335b4c28ae0634cf273537c228c92124[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Sun Jan 1 18:44:01 2023 +0500
+
+    Updated git ignore
+
+[33mcommit 215ecc2b4cea26905cc4a1632f8d35c75a0dab94[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Sun Jan 1 18:40:31 2023 +0500
+
+    Added data
+
+[33mcommit c07f9739ec7b4aafd3ae318c247f1796430355fe[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Sun Jan 1 18:38:30 2023 +0500
+
+    Added git ignore
+
+[33mcommit 217626081bec953c45e36bf48466ef1605caaabb[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Sun Jan 1 18:37:59 2023 +0500
+
+    Added git ignore
+
+[33mcommit f9cb50edbea66fb1e32a785251075a365bd286a1[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Sun Jan 1 18:36:27 2023 +0500
+
+    Added git ignore
+
+[33mcommit 8a6eaadd36e598a95b554485e7152e43136b788a[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Sun Jan 1 18:20:02 2023 +0500
+
+    Tables fixed
+
+[33mcommit 9be0506f5086745dc0d8caee8dec7ae60423ab28[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Sun Jan 1 16:27:04 2023 +0500
+
+    all tables in a row
+
+[33mcommit bbe49666096e107081eb647cfc1ffcb86161832f[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Sun Jan 1 16:09:27 2023 +0500
+
+    All data input
+
+[33mcommit 34107358fa1a9808fe971f74b9b8be7595c26383[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Sun Jan 1 04:54:02 2023 +0500
+
+    Student info integrated
+
+[33mcommit bfa61cea1da3223696c8dfa3b2ea6f9efac284bf[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Sat Dec 31 20:38:26 2022 +0500
+
+    Assignments data added
+
+[33mcommit 40b75f4834ec3ba1cebe0a26c5c4e9d3066a2218[m
+Merge: 53aa4ac 3b4308c
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Sat Dec 31 18:29:42 2022 +0500
+
+    Merge branch 'main' of https://github.com/okHadi/QALMS
+
+[33mcommit 53aa4ac6644cd083212f4eb84b9dec1f74b9a4b7[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Sat Dec 31 15:21:25 2022 +0500
+
+    Added deployment variables
+
+[33mcommit 3b4308c461c03c2c7f854ec8483ff5659bc5cb94[m
+Author: okHadi <64269712+okHadi@users.noreply.github.com>
+Date:   Sat Dec 31 14:04:24 2022 +0500
+
+    Update README.md
+
+[33mcommit 04bf3b6eba921907269aacf55e805091c7e9fb9b[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Sat Dec 31 01:35:51 2022 +0500
+
+    small change
+
+[33mcommit f38816903dbf871115e61a56e75e3cb1e931b4f2[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Sat Dec 31 01:33:47 2022 +0500
+
+    Code debugged, all scripts running
+
+[33mcommit d491ea518a56c6370b11f08bcdf7e0eefdb9e3b2[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Sat Dec 31 01:22:58 2022 +0500
+
+    bug fixing
+
+[33mcommit 9e9798921b773173f93b69b61803faa7ba576f14[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Sat Dec 31 01:06:17 2022 +0500
+
+    Integrated scripts
+
+[33mcommit 41f117c14a4e89802b11421bb89c68ac5d3fafa5[m
+Merge: 0dd6afb a7718b8
+Author: okHadi <64269712+okHadi@users.noreply.github.com>
+Date:   Fri Dec 30 15:53:59 2022 +0500
+
+    Merge pull request #3 from okHadi/flask-app
+    
+    Main functionality added
+
+[33mcommit a7718b8ba76e873066be35f92a1dd7d6f162fec6[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Fri Dec 30 15:52:23 2022 +0500
+
+    Attendance being successfully showed
+
+[33mcommit 37b956ac7d122fada2e954eeeca556cbdf4c9f4f[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Fri Dec 30 15:04:19 2022 +0500
+
+    Fixed some things
+
+[33mcommit ccf761501bc3cb0cf5ad1f877bc3d8573cf67b0b[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Fri Dec 30 15:01:06 2022 +0500
+
+    deleted qalam scrape script
+
+[33mcommit 82227910919bba9533ea0b0d6cbabd8224c536b1[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Fri Dec 30 15:00:42 2022 +0500
+
+    Integrated qalam scripts, only one qalam login required now
+
+[33mcommit a3d9a1f53c1164da3b7b6961632cc64213cfc232[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Fri Dec 30 05:03:33 2022 +0500
+
+    website working
+
+[33mcommit 06c50d1fa6b1ea4e465580759319d27513a32281[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Fri Dec 30 02:04:39 2022 +0500
+
+    Integrated muzammil scripts
+
+[33mcommit 73bb90132aae7d23b1827fe104feefa0969ddbb1[m
+Author: okHadi <khan.hadi2951@gmail.com>
+Date:   Fri Dec 30 01:54:09 2022 +0500
+
+    Error handling
+
+[33mcommit 132da796d5c59a2dc8df89448ce8ccaaffc9e90f[m
+Author: okHadi <khan.hadi2951@gmail.com>
+Date:   Fri Dec 30 01:09:36 2022 +0500
+
+    About us page added
+
+[33mcommit e241a0f7de62ab1fcdd3c5f0e670a495c47ccadd[m
+Author: okHadi <khan.hadi2951@gmail.com>
+Date:   Thu Dec 29 04:43:41 2022 +0500
+
+    Integrated all scripts, attd data not working
+
+[33mcommit 04049bc67883fea084e244b6e883609f70797523[m
+Author: okHadi <khan.hadi2951@gmail.com>
+Date:   Thu Dec 29 03:49:17 2022 +0500
+
+    Things more organized
+
+[33mcommit 1def50996d9275a7be86f33cf187352c75f4d1a7[m
+Author: okHadi <khan.hadi2951@gmail.com>
+Date:   Thu Dec 29 01:21:31 2022 +0500
+
+    Simple html page
+
+[33mcommit 3fb26fd5da03a9ca46e970e7d64b93ea0ad277ef[m
+Author: Hadi Khan <khan.hadi2951@gmail.com>
+Date:   Wed Dec 28 14:46:17 2022 +0500
+
+    Attd data good, results data bad
+
+[33mcommit 63ca318f5423eb1c672d57ce91d74383ef3978c6[m
+Author: okHadi <khan.hadi2951@gmail.com>
+Date:   Tue Dec 27 22:52:58 2022 +0500
+
+    Further work on html
+
+[33mcommit 36dcfc1fc9090f9bf68fc9eb83fc7c25ac330119[m
+Merge: 14f566b 964f112
+Author: okHadi <64269712+okHadi@users.noreply.github.com>
+Date:   Tue Dec 27 21:03:42 2022 +0500
+
+    Merge pull request #1 from okHadi/muz-data
+    
+    Muzammil data merged
+
+[33mcommit 964f1122b5fe4fdd200736472b26d21aa7da82ea[m
+Author: muzamilkm <mkaleem.bscs22seecs@seecs.edu.pk>
+Date:   Tue Dec 27 01:26:05 2022 +0500
+
+    Code now takes the attendance data and prints it into a rewriteable txt file
+
+[33mcommit 3ed487fad496f962f890e95fc86a54cd87bd33e2[m
+Author: muzamilkm <mkaleem.bscs22seecs@seecs.edu.pk>
+Date:   Mon Dec
