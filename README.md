@@ -10,6 +10,7 @@ Necessary libraries to be installed:
 - selenium-wire
 - json
 - pyinstaller
+- socket
 
 Once all these lib are installed; open cmd in the same directory and type the following:
 ```pyinstaller --onefile --add-data "data.json;." final.py```
