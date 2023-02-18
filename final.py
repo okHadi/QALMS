@@ -10,7 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from seleniumwire import webdriver
 import ctypes
 import json
-
+import socket
 
 global driver, user, key, direc
 
