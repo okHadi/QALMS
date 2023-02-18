@@ -17,8 +17,8 @@ global driver, user, key, direc
 # direc = str(input("Enter your directory of choosing (eg G:\web): "))
 # user = str(input("Input your username: "))
 # key = getpass.getpass("Input your password: ")
-
-with open('data.json', 'r') as f:
+json_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data.json")
+with open(json_path) as f:
     data = json.load(f)
     user = data['username']
     key = data['password']
