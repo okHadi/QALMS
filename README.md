@@ -14,3 +14,11 @@ Necessary libraries to be installed:
 
 Once all these lib are installed; open cmd in the same directory and type the following:
 ```pyinstaller --onefile --add-data "data.json;." final.py```
+
+You will see a final.exe executable in dist folder in your current working directory (CWD)
+
+Make it's shortcut by right-cliking and selecting 'create shortcut'
+
+Press Win+R to prompt the Run window; and type 'shell:startup' and paste the shortcut in the window which you see opened (containing the Startup Programs)
+
+All's done! Enjoy!
