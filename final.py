@@ -184,7 +184,7 @@ if(connected):
             driver_x.execute_script("window.open('');")
             driver_x.switch_to.window(driver_x.window_handles[j])
             driver_x.get(new_urls[j])
-            sleep(2)
+            sleep(3)
             pdf_links = driver_x.find_elements(
                 By.XPATH, "//a[contains(@href, '.pdf')]")
 
@@ -217,6 +217,7 @@ if(connected):
                 driver_x.execute_script("window.open('');")
                 driver_x.switch_to.window(driver_x.window_handles[u+j])
                 driver_x.get(pdf_links[u])
+                sleep(3)
 
             print(pdf_links)
 
@@ -272,6 +273,7 @@ if(connected):
                 driver_x.execute_script("window.open('');")
                 driver_x.switch_to.window(driver_x.window_handles[l])
                 driver_x.get(new_folders[l])
+                sleep(3)
                 driver_x.find_element(
                     By.XPATH, "//button[@class='btn btn-secondary'][@type='submit']").click()
 
