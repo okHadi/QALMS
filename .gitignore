@@ -4,10 +4,4 @@ __pycache__
 /*.csv
 *.csv
 
-txtData/
-templates/
-static/
 node_modules
-loginAndScrape/
-__pycache__/
-app.py
