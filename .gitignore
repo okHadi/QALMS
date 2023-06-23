@@ -3,3 +3,11 @@ __pycache__
 *.txt
 /*.csv
 *.csv
+
+txtData/
+templates/
+static/
+node_modules
+loginAndScrape/
+__pycache__/
+app.py
