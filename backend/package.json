@@ -1,0 +1,25 @@
+{
+  "name": "backend-qalms-express",
+  "version": "1.0.0",
+  "description": "The backend of QALAM written in Javascript, using Express JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okHadi/QALMS.git"
+  },
+  "author": "okHadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okHadi/QALMS/issues"
+  },
+  "homepage": "https://github.com/okHadi/QALMS#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  },
+  "type": "module"
+}
