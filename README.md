@@ -1,3 +1,4 @@
+## This branch contains the legacy QALMS web app, and this legacy app is no longer being maintained.
 # QALMS
 A repo for the QALMS project, made with Flask.
 
