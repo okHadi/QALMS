@@ -1,1 +1,0 @@
-chromedriverpath = "chromedriver/chromedriver108"

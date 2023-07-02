@@ -1,48 +1,5 @@
 # QALMS
-A repo for the QALMS project, made with Flask.
 
-Uses:
-Pandas - Flexible and powerful data analysis / manipulation library for Python.
-```
-https://github.com/pandas-dev/pandas
+This branch now contains the newer version of QALMS, which is a complete rewrite of the original QALMS. The original QALMS is still available in the "legacy" branch.
 
-pip install pandas
-```
-
-Flask - The Python micro framework for building web applications.
-```
-https://github.com/pallets/flask
-
-pip install -U Flask
-```
-Selenium - A browser automation framework and ecosystem.
-```
-https://github.com/SeleniumHQ/selenium
-
-pip install selenium
-```
-Requests - A simple, yet elegant, HTTP library
-```
-https://github.com/psf/requests
-
-pip install requests
-```
-Beautiful Soup -  a Python library for pulling data out of HTML and XML files.
-```
-https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-
-pip install bs4
-```
-Jinja - A very fast and expressive template engine
-```
-https://github.com/pallets/jinja
-
-pip install -U Jinja2
-```
-lxml - a Python library which allows for easy handling of XML and HTML files, and can also be used for web scraping.
-```
-https://github.com/lxml/lxml
-
-pip install lxml
-```
-FUNDAMENTALS OF ICT PROJECT (BSCS-12B) 
+### Currently a work in progress.
