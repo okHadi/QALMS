@@ -3,8 +3,8 @@ const cheerio = require('cheerio');
 
 const proxyUrl = 'http://39.62.7.232:8080';
 const targetUrl = 'https://qalam.nust.edu.pk/';
-const username = 'mkaleem.bscs22seecs';
-const password = 'ILIPtphi180M!';
+const username = 'username';
+const password = 'pass';
 
 (async () => {
   const browser = await puppeteer.launch({headless: false});
@@ -19,7 +19,8 @@ const password = 'ILIPtphi180M!';
 
   // Modify the code to wait for a specific element to appear after login
   // await page.waitForSelector('#user_heading_content', {timeout: 60000});
-  await page.waitForNavigation();
+
+  await page.waitFor(20000);
 
   const html = await page.content();
 
