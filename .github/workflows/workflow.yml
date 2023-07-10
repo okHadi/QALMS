@@ -1,0 +1,12 @@
+name: Trigger Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    environment: test
+    steps:
+      - name: test
+        run: echo hello world
